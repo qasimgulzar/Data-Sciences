@@ -13,8 +13,12 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # faces = face_cascade.detectMultiScale(gray, 1.3, 5)
 
 cars = cars_cascade.detectMultiScale(gray,1.2,3)
+index = 0
 for (x,y,w,h) in cars:
+    index += 1
     img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+    roi = img[y:y+h, x:x+w]
+    cv2.imwrite("output/" + "car - " + str(index) + '.jpg', roi)
 
 # for (x,y,w,h) in faces:
 #     img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
