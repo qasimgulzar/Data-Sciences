@@ -1,0 +1,73 @@
+Buying and selling Bitcoin, explained A quick and dirty introduction to trading the world’s most exciting cryptocurrency. 
+
+Mining Bitcoin isn't the only way to get your hands on the stuff, you know. 
+
+In fact, mining Bitcoin is a complete pain in the buns. At a minimum, you need specialized software, a sophisticated hardware rig to run it and a considerable amount of electricity to power the whole thing. 
+
+Really, the simplest way to amass Bitcoin is to just buy it. Of course, that's something of a process in and of itself. 
+
+Before you're ready to ride the Bitcoin rollercoaster, you'll need to establish an account with one of the major exchanges (like Coinbase or CEX), connect a bank account or credit card and transfer money over. That process, which we break down below, should take roughly 10 minutes or so. Unless, of course, an exchange is suffering some sort of outage -- an increasingly (and disconcertingly) common occurrence. 
+
+
+
+Watch this: Bitcoin: A beginner's guide 3:09 Where can I buy Bitcoin? 
+
+There are many other points of entry into the Bitcoin universe, however. You can play day trader and use a regulated exchange like GDAX (which is owned by Coinbase). On the opposite end of the spectrum, you can find someone local willing to trade cash for Bitcoins, if you're into meeting up with strangers in parking lots. And if you operate a business, you can accept Bitcoin as payment for goods or services. 
+
+The GDAX dashboard GDAX: where young urban professionals go to trade digital assets. GDAX Or you can go the high finance route. On Monday CME Group, the largest derivatives exchange in the world, made it possible to trade in Bitcoin futures, opening up another avenue and marking another milestone in the cryptocurrency's evolution. And Bloomberg reports that Goldman Sachs is planning to launch a Bitcoin trading desk in 2018. 
+
+Can I play the Bitcoin market without buying Bitcoin? 
+
+You can do the Bitcoin thing without owning it outright. The eToro "social trading" network doesn't sell Bitcoin, but lets you follow traders and wager -- or in the parlance of the app, "copy" -- their performance and profit (or lose) from the price swings. And it's only a matter of time before the big institutional investors figure out a way to offer Bitcoin to the masses through ETFs and index funds. 
+
+Where should I buy Bitcoin? 
+
+For now, the most popular way to purchase Bitcoins remains an exchange like Coinbase or CEX. That noted, even Coinbase, the most established platform, is struggling to keep pace with demand. There are frequent outages that can make it difficult or impossible to buy -- and, perhaps more frustratingly, sell -- and there is no shortage of customers, investors and speculators with nightmare stories to tell. So, as with everything cryptocurrency-related: do some research and caveat emptor. 
+
+Coinbase site outage As the price of Bitcoin has ascended, sporadic service and full-on outages have become more common. Coinbase Factors to consider when buying Bitcoin 
+
+Despite its imperfect customer service track record, it's no surprise that most Bitcoin buyers go to Coinbase. It has the largest volume of trading, venture backing and makes a complicated process fairly simple and user-friendly. 
+
+Still, every cryptocurrency and exchange has its own protocols and rules, some of which are more stringent than others. Some require that you verify your identity before buying and selling. Some enforce strict buying limits, while others will take any amount of money you're inclined to part with. 
+
+There are limits to how much Bitcoin you can buy. Sometimes there are limits to the amount of Bitcoin you can acquire. Coinbase With the price of Bitcoin fluctuating dramatically from hour to hour, the transaction time -- how quickly currency is transferred from your bank account or credit card to your Bitcoin wallet -- can vary widely depending on which exchange you use and your payment type. And then there is the matter of fees, which can quickly erode your balance. We'll take a look at each of these factors below. 
+
+Can I buy Bitcoin anonymously? 
+
+Bitcoin isn't exactly anonymous; every transaction is publicly visible once it's inscribed and published in the blockchain. That noted, those transactions are associated with a Bitcoin address -- not a name or account number -- so there are ways to trade while keeping your identity obscured. (This is why Silk Road, the dark web marketplace for drugs and other illicit goods and services, was an early and ardent adopter of Bitcoin.) 
+
+Do I need to verify my identity to buy Bitcoin? 
+
+If privacy is important to you, buying Bitcoin with cash is your best bet. There are many sites that connect buyers and sellers -- including Paxful and LocalBitcoins -- that will enable you to trade cash or even a gift card, in person or online, for Bitcoin. 
+
+CEX identity verification The verification process may require uploading photos of identification and selfies. CEX.io If you choose to go a more mainstream route, after all, the process can be rather invasive. The major exchanges require a good deal of identification and sensitive financial information to establish and fund an account. (Exchanges that are registered with regulators are required to verify your identify before doing business with you in an effort to protect against fraud and money laundering.) And there is risk whenever you provide personal and financial information to any entity, especially online. 
+
+Can I use a credit card to buy Bitcoin? 
+
+You can use virtually any funding source to buy Bitcoin; other cryptocurrencies may offer less flexibility and fewer options. Most exchanges accept credit cards and debit cards, and those are generally the fastest ways to buy Bitcoin. Other funding options include a bank account or wire transfer, which may require a longer time -- somewhere between a few minutes and a few days -- to clear. PayPal, cash and other cryptocurrencies are also viable options. 
+
+How much (or how little) Bitcoin can I buy at once? 
+
+Even if you're sitting on piles of money, itching to buy Bitcoin, there are limits. Some platforms and exchanges put a weekly or daily cap on how much Bitcoin you can buy depending on which payment method you use, how long your account has been active and your purchase history. And even if you verify your identity, you may still be limited to buying $750 of Bitcoin per week with a credit card or $10,000 to $15,000 per week if you use a bank account. 
+
+Of course, you can purchase smaller amounts, too. Coinbase will let you buy $1.99 worth of bitcoin -- but will take 99 cents off the top in fees. 
+
+Speaking of which, what type of fees can I expect to pay? 
+
+Though there are no inherent transaction costs with Bitcoin, buying and selling it usually involves fees. Coinbase's fees fall into two main categories -- conversion fees and exchange fees -- which can add up to 7.99 percent of a transaction in the US, depending on the nature of the transaction and how you fund your account (e.g. credit card, bank transfer or wire transfer). You may also be charged a fee to transfer money in and out of your bank account. (Check out Coinbase's explanation of its fees here.) 
+
+To put this in context, when I bought $100 of Bitcoin in early September, using cash transferred from a US bank account to fund the transaction, I paid a total of $2.99 in fees. (I paid the same amount in fees when I sold $100 of Bitcoin in early December.) 
+
+Great. I bought some Bitcoin. Now what? 
+
+Bitcoin is still a niche currency, though an increasing number of companies, including Microsoft and Subway, now accept it. (In 2015, payment processor BitPay claimed that more than 100,000 merchants around the world accepted Bitcoin.) To put that in perspective, Apple Pay is accepted in more than 2 million stores and "tens of millions" of stores in more than 200 countries accept Visa. (Note that Coinbase offers a debit card that let you buy things with Coinbase anywhere Visa is accepted.) 
+
+Subway accepts Bitcoin You could buy your next oven roasted chicken with Bitcoin. Reddit user sapan211 You can sell Bitcoin on all of the same exchanges and services that you can buy it from. And though the sale transaction may take just a few seconds, it will likely take considerably more time to actually withdraw the proceeds of that sale from your Bitcoin wallet into your bank account. When I sold some Bitcoin on Coinbase in early December and then immediately initiated a deposit into my bank account, it took a full week for the money to land there. 
+
+There are other cryptocurrencies that pride themselves on faster transaction and deposit times. We'll take a look at some of the other major currencies, and how they stack up, later in this series. 
+
+How do I keep my Bitcoin safe? 
+
+Trezor hardware wallet Hardware wallets are the most secure way to store your Bitcoin. Trezor If you're trading lower amounts, it's probably OK to use the wallet provided by your exchange or another software wallet (and there are plenty to choose from). If you're going big, you almost certainly want a hardware wallet, of which there are a number of complicated, encryption-related options. 
+
+We'll take a look at the pros and cons of each of these options in a future article. In the meantime, Bitcoin.org provides some good introductory information. 
