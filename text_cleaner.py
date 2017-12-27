@@ -55,6 +55,9 @@ def get_top_topic_keywords(word_counts, threshold=10, global_topic_words=[]):
     paragraph_topic_words = [paragraph_topic_word[0] for paragraph_topic_word in word_counts]
     for g_topic_keyword in global_topic_words:
         if (g_topic_keyword in paragraph_topic_words):
+            if (top < 1):
+                break
+
             for topic_keyword in word_counts:
                 if topic_keyword[0] == g_topic_keyword:
                     topic_words.append(topic_keyword)
@@ -88,14 +91,22 @@ def word_count_with_most_used(words, threshold=10, global_topic_keywords=[]):
 
 # json.dump(word_count_and_most_used_global, open('global-word-counts.json', 'w'), indent=4)
 
-def process_text(allstr, word_count_and_most_used_global):
+def process_text(allstr, word_count_and_most_used_global, min_paragraph_length=50):
     '''
 
     :param allstr: list of all paragraphs
     :param word_count_and_most_used_global: word count and global keywords fro whole text
     :return: None
     '''
+    paragraph_list = []
+    paragraph_text = ""
     for str in allstr:
+        paragraph_text = "%s %s" % (paragraph_text, str)
+        if len(paragraph_text.strip().split(' ')) > min_paragraph_length:
+            paragraph_list.append(paragraph_text.replace('\n', ' ').replace('\r', '').rstrip())
+            paragraph_text = ""
+
+    for str in paragraph_list:
         if (len(str.strip()) > 0):
             import nltk
             paragraph_words = tokenize_remove_stopwords(str.lower())
@@ -124,7 +135,8 @@ def process_text(allstr, word_count_and_most_used_global):
 
             print(
                 "\n--------- Paragraph Start -------------",
-                "\nTEXT : %s" % str.strip(),
+                "\nTEXT : %s" % str.rstrip(),
+                "\nLENGTH : %s" % len(str.rstrip().split(' ')),
                 "\nWORDS : { %s }" % words_str,
                 "\nBI-GRAMS : { %s }" % bigrams_str,
                 "\nWORD-COUNT : { %s }" % word_count_str,
