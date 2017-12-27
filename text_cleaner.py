@@ -97,8 +97,9 @@ def process_text(allstr, word_count_and_most_used_global):
     '''
     for str in allstr:
         if (len(str.strip()) > 0):
+            import nltk
             paragraph_words = tokenize_remove_stopwords(str.lower())
-            bigrams = find_bigrams([word for word in paragraph_words])
+            bigrams = nltk.bigrams([word for word in paragraph_words])
             bigram_strs = [' '.join(bigram) for bigram in bigrams]
             global_topic_keywords = [global_topic_keyword[0] for global_topic_keyword in
                                      word_count_and_most_used_global['global_words']]
