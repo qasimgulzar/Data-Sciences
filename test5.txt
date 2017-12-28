@@ -1,0 +1,105 @@
+On a lark, Joel Wilson started developing skills for Alexa, Amazon's voice assistant, this past January.
+
+After a few weeks of coding, he launched two skills -- Amazon's term for voice-controlled apps -- called Question of the Day and Three Questions. Both quiz people on science, literature and pop culture trivia.
+
+"I wasn't thinking in terms of revenue. I was just doing it for fun," said Wilson, 47, CEO of a small marketing analytics company in Washington, DC.
+
+Joel Wilson has created skills such as Three Questions and Question of the Day.
+Courtesy of Joel Wilson In May, he got an email from Amazon telling him to expect a check in the mail as part of a new program that pays cash to makers of popular skills. That first month, Amazon sent him $2,000. It got better from there. He's received checks for $9,000 over each of the past three months, he said.
+
+Wilson unexpectedly joined a new Alexa economy, a small but fast-growing network of independent developers, marketing companies and Alexa tools makers. They're working to bring you voice-activated flash briefings, games and recipes through Amazon's Echo speaker, Alexa's primary home. By doing so, they hope to define the 3-year-old Alexa platform and make money from voice computing's surging popularity.
+
+Two years ago, there wasn't nearly as much to do on Alexa and the market for making Alexa skills was worth a mere $500,000. Now, with more than 25,000 skills available, the market is expected to hit $50 million in 2018, according to analytics firm VoiceLabs. That's dwarfed by the mobile app economy, with global sales of over $50 billion, but Alexa is growing at a far faster rate.
+
+Sonos One 18 The growing crowd of smart speakers is ready for your command
+Customers rarely pay these developers and marketers directly, but they have a big stake in these workers' efforts. Their success, or failure, will determine the number and the quality of skills, such as more complex games, better smart-home controls and more services from companies like Lyft or Domino's Pizza.
+
+Alexa is an increasingly important business for Amazon, which is expanding the assistant into millions of internet-connected gadgets and moving it into the workplace. Drawing in more developers will help the company sell more Alexa-powered devices and strengthen its top-dog status in voice. It's sold more than 20 million Echo speakers in the US, taking up 70 percent of the market and helping Alexa become the most active voice market for developers today.
+
+Every skill makes Alexa smarter or more useful," Rob Pulciani, director of Amazon Alexa, said in a statement to CNET. "We can't do that by ourselves and we want to enable indie developers to innovate and extend Alexa capabilities at a rapid pace. If our developer community succeeds, we succeed.
+
+Early days The Alexa economy is just beginning to take shape, according to interviews with a dozen indie Alexa coders, marketing executives, industry watchers and Amazon itself.
+
+Nearly all skills available today are free to consumers because Amazon doesn't let most developers charge consumers or serve ads. That means most indie developers – many of them hobbyists with day jobs in a variety of fields -- see hardly any payouts even though they've produced the large majority of skills. Like Wilson, a lucky few get paid through Amazon's Alexa Developer Rewards program. But Amazon is creating more ways for developers to profit.
+
+Now Playing: Amazon's Echo Spot isn't a must-buy, even for Alexa fans Meanwhile, most of the serious money is flowing to marketing companies, which make anywhere from $10,000 to $200,000 to create skills for major brands and groups like Purina, Nestle and AARP. While that higher end may sound like a lot, it pales in comparison to what companies typically spend in the more mature mobile-apps market. Plus, these big-money jobs don't come around often.
+
+Amazon's success is far from assured. Developers can already decamp to rival voice helpers like Google Assistant or Microsoft's Cortana, and may find more options when Apple's Siri and Samsung's Bixby get in the mix. Plus, both Google and Apple might use their huge user bases and larger app stores to entice developers to work on their assistants instead, said Julie Ask, a Forrester analyst.
+
+I think we're just getting started here she added. The indies Wilson's story is a rare case. A more typical financial outcome is Darian Johnson's. He's 40, lives in Dallas and works as a managing director at Accenture.
+
+Darian Johnson has built skills such as Chess Master and Black History Facts.
+Courtesy of Darian Johnson Johnson caught the Alexa bug by entering hackathon contests to create skills. If you've ever played chess through Alexa using the Chess Master skill or used Black History Facts, you've used one of his seven available skills.
+
+Beyond a $100 monthly credit that Amazon provides to cover his server costs, Johnson doesn't make money from his skills, and that's just fine with him. He's happy to get back to his developer roots -- something he doesn't get to do much at work -- and he's enjoyed recognition at Accenture for building up his Alexa expertise.
+
+"It's been a great hobby to do. I love it," Johnson said, but added about payouts: "I think you have to go into it knowing the deal you're making."
+
+For some developers interested in creating a business on Alexa, the situation isn't as positive.
+
+Joseph "Jo" Jaquinta, 52, an IBM senior developer from Winchester, Massachusetts, said he's spent the past two years -- usually working two hours every night -- trying to turn his Alexa skills into moneymakers. He's frustrated it hasn't worked out that way.
+
+If you can't make money off it, no one's going to seriously engage.
+Joseph "Jo" Jaquinta, indie developer
+Jaquinta created over a dozen skills, including the Dungeons & Dragons-inspired game 6 Swords, the space-fantasy game Starlanes and sillier skills like Zombie News, where listeners can "hear inspirational groans."
+
+Hoping to squeeze some money out of these skills, he's self-published two books, put up for sale Starlanes T-shirts, bought ads through Google AdWords to draw in users and tested ads through his skills, though ads are now strictly forbidden on Alexa.
+
+jo-voice Joseph "Jo" Jaquinta has created skills such as Starlanes and 6 Swords. Courtesy of Joseph Jaquinta
+He received $5,000 through Amazon's rewards program one month, but that amount has shrunk by half in recent months despite customer use rising, he said. He's now planning to scale back his Alexa work.
+
+"For there to be quality skills on Alexa, quality developers are going to need to spend quality time," Jaquinta said. "If you can't make money off it, no one's going to seriously engage."
+
+Other developers also take issue with the lack of transparency and unpredictable payouts from the Alexa rewards program. After all, it's hard to build a business model when you don't know whether you're making $1,000 or $9,000 any given month.
+
+"The challenge with the monetization program is there's no certainty. We don't know how it works," said one developer who requested anonymity.
+
+Amazon's guiding hand
+
+Responding to those concerns, Amazon's Pulciani said the company is "relentlessly exploring" ways for customers to get an enjoyable experience while helping developers "build a voice-first business." He added that the rewards payments weigh a number of factors, including "minutes of usage, new customers, recurring customers, customer ratings and more."
+
+Since late October, Amazon has introduced two new ways to make money. It offers in-skill purchasing, allowing some developers to sell premium content or digital subscriptions in their skills. That means Sony, which made the Jeopardy skill, can sell a subscription to Double Jeopardy, which offers more clues. Amazon also added its Amazon Pay service to skills so, for example, TGI Friday's customers can pay for their food orders through Alexa. Both features still have limited availability, but Amazon said more developers will get access to them in 2018.
+
+amazon-echo-collage
+Amazon has been expanding its Echo lineup. Here are several Alexa-powered devices it unveiled in 2017.
+CNET
+Amazon also said it's already paid millions of dollars to developers through its rewards program, which it's expanding to more countries in 2018.
+
+Beyond those payment options, Amazon has cultivated developers by hosting hackathons and webinars, teaming up with educational groups like Codecademy, and creating the Alexa Champions program, which highlights indie developers like Johnson. It also runs challenges like the Alexa Prize, a college competition that pays $500,000 to the winner.
+
+If our developer community succeeds, we succeed.
+Rob Pulciani, director of Amazon Alexa
+"They are doing a tremendous amount to foster the ecosystem," said VoiceLabs CEO Adam Marchick. "They're doing a lot, and they're paying people."
+
+One potentially lucrative route -- advertising -- isn't yet happening. VoiceLabs in May introduced an ad program that included spots from ESPN, Progressive and Wendy's. But it stopped the program after Amazon tightened its ads policies. Marchick said he had one customer on track to make $20,000 a month but added that Amazon was right to be cautious, so it could avoid annoying customers.
+
+Asked about bringing ads to the platform, Pulciani said: "We don't comment on our future plans, but customers expect a delightful experience with Alexa, and it is our top priority to maintain that experience."
+
+That Purina skill didn't come cheap
+
+Last year, Ahmed Bouzid took the leap into the Alexa economy. He was working on Amazon's Alexa team when he left to create a voice tech startup that partners with the e-commerce giant.
+
+"All the signals were there that this was going to take off," he said, "and the sooner one would launch a startup, the better."
+
+amazon-echo-show-product-photos-3
+The Echo Show was introduced in 2017 and includes a built-in touchscreen.Tyler Lizenby/CNET In February, he launched Witlingo in Washington, DC, and now has about 10 employees. His company designs and hosts voice apps for Cortana, Google Assistant and Alexa, with clients including AARP and Motley Fool. His company charges setup fees of $300 to $1,000 for simple skills built off templates, making money by charging $100 $500 a month to operate the skills.
+
+Other companies offer more complex, customized skills, but that costs more money. Few major brands shell out that kind of cash, but marketers see the situation changing soon as more companies learn about voice platforms.
+
+"This industry, I'm confident, is going to explode like web development exploded," said Pat Higbie, CEO of XAPPmedia in Washington, DC, which charges $50,000 to hundreds of thousands of dollars for skills. "It's going to happen next year."
+
+MORE ON VOICE ASSISTANTS After a busy 2017, Alexa is still on top -- and still evolving Apple HomePod likely a no-show at CES, but it could win anyway Google Home's 2017 in review: All grown up and ready to battle Possible Mobile, a Seattle company owned by ad giant WPP, makes skills for $30,000 to $100,000 each, including the cost of design, engineering and quality assurance teams, said Danielle Reubenstein, the executive creative director. Alexa skills, though, are only about 5 percent of Possible Mobile's total business, and those projects are usually part of larger marketing campaigns for clients.
+
+Mobiquity, a Boston agency that built skills for Purina and Nestle, also brings in just 5 percent to 10 percent of its revenue from voice apps -- amounting to a few million dollars -- but sees voice as a growth opportunity, said Andy Norman, the chief operating officer.
+
+"I really, wholeheartedly believe voice is coming," Reubenstein said. "It's coming for all of us -- like winter."
+
+Taking the leap As the Amazon checks came in, Wilson in October focused most of his energy into building a new startup, called VoicePress.AI, which designs and hosts skills for companies, similar to what Witlingo or Possible Mobile do. He also spoke to some venture capitalists about potentially funding voice startups.
+
+Watch this: The new, cheaper Amazon Echo is more tempting than ever But two months later, he has decided to split his time between his Alexa work and his existing marketing analytics company, with its more predictable paychecks. Amazon didn't give him access to its new money-making programs, and he doubts they'd work for his skills anyway. He's hoping to be able to serve ads someday.
+
+His hesitation to jump full force into Alexa work illustrates the risks of the young platform and perhaps the need for Amazon to do more to spread the wealth.
+
+"It's a tricky situation," he said about the rewards checks, "because this Amazon program could go away at any time."
+
+'Alexa, be more human': Inside Amazon's effort to make its voice assistant smarter, chattier and more like you. The Smartest Stuff: Innovators are thinking up new ways to make you, and the things around you, smarter.

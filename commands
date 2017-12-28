@@ -1,0 +1,49 @@
+
+create list of files 
+for f in encoded/encoded-*.mp4; do echo "file '/home/frt/TEXT-VIDEO/$f'">>list.txt;done
+
+encode clips
+ffmpeg -i 12.mp4 -c:v libx264 -crf 18 -preset medium -c:a copy output-12.mp4
+ffmpeg -r 30 -i original/07.mp4 -c:v libx264 -crf 18 -preset fast -c:a copy output-07.mp4
+
+for f in *.mp4; do ffmpeg -r 30 -i $f -vf scale=640:360 -c:v libx264 -crf 18 -preset medium -c:a copy encoded/encoded-$f;done
+
+
+for f in *.mp4; do ffmpeg -r 30 -i $f -c:v libx264 -crf 18 -preset medium -c:a copy encoded/encoded-$f;done
+stich videos
+ffmpeg -f concat -safe 0 -i list.txt -c copy output-second.mp4
+ffmpeg -f concat -safe 0 -i list.txt -c:v libx264 -crf 18 -preset medium -c:a fast -c:a copy output-second.mp4
+
+Overlap with audio
+ ffmpeg -i output.mp4 -i full-artical.mp3 -c:v copy -c:a aac -strict experimental -map 0:v:0 -map 1:a:0 output-final-medium.mp4
+
+
+
+
+ffmpeg -i movie.mp4 -ss 00:00:03 -t 00:00:08 -async 1 cut.mp4
+
+
+
+
+
+
+
+
+Then, run the concat command.
+
+ffmpeg -f concat -i textfile -c copy -fflags +genpts merged.mp4
+For this to work, all videos should have same properties such as codec, resolution, framerate, sample rate, etc.
+
+If they are not, you can encode the concat.
+
+ffmpeg -f concat -i textfile -fflags +genpts merged.mp4
+
+example ffmpeg -f concat -safe 0 -i list.txt -fflags +genpts merged.mp4
+
+
+
+ffmpeg -safe 0 -i 00.mp4 -c:v libx264 -crf 18 -preset medium -c:a copy output-00.mp4
+
+
+
+ffmpeg -f concat -safe 0 -i list.txt -c:v libx264 -crf 18 -preset medium -c:a fast -c:a copy output-second.mp4

@@ -18,6 +18,7 @@ for (x,y,w,h) in cars:
     index += 1
     img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
     roi = img[y:y+h, x:x+w]
+
     cv2.imwrite("output/" + "car - " + str(index) + '.jpg', roi)
 
 # for (x,y,w,h) in faces:
