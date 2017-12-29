@@ -57,8 +57,8 @@ class YouTubeDownloader():
                     if res not in extracted_informtaion:
                         extracted_informtaion[res] = []
                     for subscript in transcript:
-                        if ('start' in subscript['attr'] and 'dur' in subscript['attr'] and query_keyword in subscript[
-                            'text']):
+                        if ('start' in subscript['attr'] and 'dur' in subscript['attr'] and subscript[
+                            'text'] and query_keyword in subscript['text']):
                             text = subscript['text']
                             duration = float(subscript['attr']['dur'])
                             start = float(subscript['attr']['start'])
@@ -107,14 +107,14 @@ class YouTubeDownloader():
             out_dir = os.path.abspath(out_dir)
             if not os.path.exists(out_dir):
                 os.mkdir(out_dir)
-            else:
-                shutil.rmtree(out_dir)
-                os.mkdir(out_dir)
+            # else:
+            #     shutil.rmtree(out_dir)
+            #     os.mkdir(out_dir)
             curr_filename, file_extension = os.path.splitext(file_path)
             i = 0
             for subs in subscript:
-                out_file = os.path.join(out_dir, "%s-%s%s" % (video_id, str(i), file_extension))
-                # print(" ".join(["/usr/bin/ffmpeg", "-i", str(file_path), '-ss', subs['start_time'], '-t', subs['end_time'], '-async', '1', str(out_file)]))
+                out_file = os.path.join(out_dir, "%s-%s%s%s" % (
+                video_id, str(i), subs['start_time'] + "|" + subs['end_time'], file_extension))
                 subprocess.call(
                     ["/usr/bin/ffmpeg", "-i", str(file_path), '-ss', subs['start_time'], '-t', subs['end_time'],
                      '-async', '1', str(out_file)])
@@ -141,6 +141,7 @@ class YouTubeDownloader():
         if os.path.exists(list_file_path):
             os.remove(list_file_path)
         file_list = glob.glob(os.path.abspath(os.path.join(src_dir, '*')))
+        file_list.sort(lambda f: os.path.getmtime(f))
         with open(list_file_path, 'w') as list_file:
             for f in file_list:
                 list_file.write("file '%s'\n" % f)
@@ -157,6 +158,10 @@ class YouTubeDownloader():
                 max_res = len(extracted_info[video_id])
                 selected_id = video_id
         return selected_id
+
+    def clean(self):
+        if os.path.exists(self.out_dir):
+            shutil.rmtree(self.out_dir)
 
 
 if __name__ == '__main__':

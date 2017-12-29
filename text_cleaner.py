@@ -100,6 +100,7 @@ def process_text(allstr, word_count_and_most_used_global, min_paragraph_length=5
     :param word_count_and_most_used_global: word count and global keywords fro whole text
     :return: None
     '''
+    downloader = YouTubeDownloader()
     paragraph_list = []
     paragraph_text = ""
     for str in allstr:
@@ -147,20 +148,23 @@ def process_text(allstr, word_count_and_most_used_global, min_paragraph_length=5
                 "\nPARAGRAPH-QUERY : { %s }" % paragraph_query_str,
                 "\n--------- Paragraph End ---------------"
             )
-            downloader = YouTubeDownloader()
+            import os
+
             search_result = downloader.search(search_query=paragraph_query_str)
             json.dump(search_result, open('search-result.json', 'w'), indent=4)
             extracted_info = downloader.extractClipDurations()
+            json.dump(extracted_info, open('extracted-subscripts.json', 'w'), indent=4)
             video_id = downloader.select_video_id(extracted_info=extracted_info)
             downloader.download_video(video_id=video_id, filename=video_id)
-            downloader.split_video(file_path="%s/%s-encoded.mp4" % (video_id, video_id),
+            downloader.encode_rescale_file(file_path=os.path.join(video_id,"%s.mp4"%video_id),encoded_file_path=os.path.join(video_id,"%s-encoded.mp4"%video_id))
+            out_dir=downloader.split_video(file_path="%s/%s-encoded.mp4" % (video_id, video_id),
                                    out_dir='clips', video_id=video_id)
 
-            break
-
+    out_file_path=downloader.merge_videos(src_dir='clips')
+    print(out_file_path)
 
 if __name__ == '__main__':
-    with open('test4.txt') as f:
+    with open('test1.txt') as f:
         allstr = f.readlines()
 
         words = tokenize_remove_stopwords(" ".join(allstr).lower())
