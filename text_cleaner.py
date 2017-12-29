@@ -1,5 +1,7 @@
 import json
 
+from youtube_downloader import YouTubeDownloader
+
 
 def tokenize_remove_stopwords(text):
     '''
@@ -105,8 +107,8 @@ def process_text(allstr, word_count_and_most_used_global, min_paragraph_length=5
         if len(paragraph_text.strip().split(' ')) > min_paragraph_length:
             paragraph_list.append(paragraph_text.replace('\n', ' ').replace('\r', '').rstrip())
             paragraph_text = ""
-
     for str in paragraph_list:
+
         if (len(str.strip()) > 0):
             import nltk
             paragraph_words = tokenize_remove_stopwords(str.lower())
@@ -145,6 +147,16 @@ def process_text(allstr, word_count_and_most_used_global, min_paragraph_length=5
                 "\nPARAGRAPH-QUERY : { %s }" % paragraph_query_str,
                 "\n--------- Paragraph End ---------------"
             )
+            downloader = YouTubeDownloader()
+            search_result = downloader.search(search_query=paragraph_query_str)
+            json.dump(search_result, open('search-result.json', 'w'), indent=4)
+            extracted_info = downloader.extractClipDurations()
+            video_id = downloader.select_video_id(extracted_info=extracted_info)
+            downloader.download_video(video_id=video_id, filename=video_id)
+            downloader.split_video(file_path="%s/%s-encoded.mp4" % (video_id, video_id),
+                                   out_dir='clips', video_id=video_id)
+
+            break
 
 
 if __name__ == '__main__':

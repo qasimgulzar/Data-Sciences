@@ -1,9 +1,17 @@
 import json
 import os
+import shutil
 
 
 class YouTubeDownloader():
     # pip install pytube
+
+    def __init__(self, out_dir="downloads"):
+        self.out_dir = os.path.abspath(
+            out_dir
+        )
+        if not os.path.exists(self.out_dir):
+            os.mkdir(self.out_dir)
 
     def search_videos(self, search_query):
         import urllib.request
@@ -59,13 +67,15 @@ class YouTubeDownloader():
                             extracted_informtaion[res].append(
                                 {'start': start, 'duration': duration, 'text': text, 'start_time': start_time,
                                  'end_time': end_time})
+                            break
+
             return extracted_informtaion
 
-    def download_video(self, video_id='vt-zXEsJ61U', filename='vt-zXEsJ61U', out_dir='downloads',
+    def download_video(self, video_id='vt-zXEsJ61U', filename='vt-zXEsJ61U',
                        progress_change_callback=None,
                        complete_callback=None):
         from pytube import YouTube
-        out_dir = os.path.abspath('%s/%s' % (out_dir, video_id))
+        out_dir = os.path.abspath('%s/%s' % (self.out_dir, video_id))
         if not os.path.exists(out_dir):
             os.mkdir(out_dir)
 
@@ -83,9 +93,12 @@ class YouTubeDownloader():
         yt.register_on_complete_callback(complete_callback if complete_callback else on_complete)
         yt.streams.first().download(out_dir)
 
-    def split_video(self, file_path='downloads/vt-zXEsJ61U/vt-zXEsJ61U.mp4', out_dir="downloads/vt-zXEsJ61U/clips",
+    def split_video(self, file_path='vt-zXEsJ61U/vt-zXEsJ61U-encoded.mp4',
+                    out_dir="vt-zXEsJ61U/clips",
                     video_id="vt-zXEsJ61U",
                     extracted_subscripts='extracted-subscripts.json'):
+        file_path = os.path.abspath(os.path.join(self.out_dir, file_path))
+        out_dir = os.path.abspath(os.path.join(self.out_dir, out_dir))
         import subprocess
         with open(extracted_subscripts) as subscript_file:
             extracted_subscripts = json.load(subscript_file)
@@ -94,20 +107,65 @@ class YouTubeDownloader():
             out_dir = os.path.abspath(out_dir)
             if not os.path.exists(out_dir):
                 os.mkdir(out_dir)
+            else:
+                shutil.rmtree(out_dir)
+                os.mkdir(out_dir)
             curr_filename, file_extension = os.path.splitext(file_path)
             i = 0
             for subs in subscript:
-                out_file = os.path.join(out_dir, "%s-%s%s" % (video_id, str(i),file_extension))
+                out_file = os.path.join(out_dir, "%s-%s%s" % (video_id, str(i), file_extension))
                 # print(" ".join(["/usr/bin/ffmpeg", "-i", str(file_path), '-ss', subs['start_time'], '-t', subs['end_time'], '-async', '1', str(out_file)]))
-                subprocess.call(["/usr/bin/ffmpeg", "-i", str(file_path), '-ss', subs['start_time'], '-t', subs['end_time'], '-async', '1', str(out_file)])
+                subprocess.call(
+                    ["/usr/bin/ffmpeg", "-i", str(file_path), '-ss', subs['start_time'], '-t', subs['end_time'],
+                     '-async', '1', str(out_file)])
                 i = i + 1
+        return out_dir
+
+    def encode_rescale_file(self, file_path='vt-zXEsJ61U/vt-zXEsJ61U.mp4',
+                            encoded_file_path='vt-zXEsJ61U/vt-zXEsJ61U-encoded.mp4'):
+        file_path = os.path.abspath(os.path.join(self.out_dir, file_path))
+        encoded_file_path = os.path.abspath(os.path.join(self.out_dir, encoded_file_path))
+        import subprocess
+        subprocess.call(
+            ["/usr/bin/ffmpeg", "-r", "30", "-i", str(file_path), "-vf", "scale=640:360", "-c:v", "libx264", "-crf",
+             "18", "-preset", "medium", "-c:a", "copy", encoded_file_path])
+        return encoded_file_path
+
+    def merge_videos(self, src_dir='downloads/vt-zXEsJ61U/clips', out_dir='downloads/vt-zXEsJ61U/clips',
+                     out_name='merged_video.mp4'):
+        import os
+        import glob
+        import subprocess
+        out_file_path = os.path.join(out_dir, out_name)
+        list_file_path = os.path.abspath(os.path.join(src_dir, 'list.txt'))
+        if os.path.exists(list_file_path):
+            os.remove(list_file_path)
+        file_list = glob.glob(os.path.abspath(os.path.join(src_dir, '*')))
+        with open(list_file_path, 'w') as list_file:
+            for f in file_list:
+                list_file.write("file '%s'\n" % f)
+
+        subprocess.call(
+            ["/usr/bin/ffmpeg", "-f", "concat", "-safe", "0", "-i", "%s" % list_file_path, "-c", "copy", out_file_path])
+        return out_file_path
+
+    def select_video_id(self, extracted_info=[]):
+        max_res = 0
+        selected_id = None
+        for video_id in extracted_info:
+            if max_res < len(extracted_info[video_id]):
+                max_res = len(extracted_info[video_id])
+                selected_id = video_id
+        return selected_id
 
 
 if __name__ == '__main__':
     downloader = YouTubeDownloader()
-    # search_result = downloader.search()
-    # json.dump(search_result, open('search-result.json', 'w'),indent=4)
-    # extracted_info = downloader.extractClipDurations()
-    # json.dump(extracted_info, open('extracted-subscripts.json', 'w'), indent=4)
-    # downloader.download_video()
+    search_result = downloader.search()
+    json.dump(search_result, open('search-result.json', 'w'), indent=4)
+    extracted_info = downloader.extractClipDurations()
+    json.dump(extracted_info, open('extracted-subscripts.json', 'w'), indent=4)
+    downloader.download_video()
+    downloader.encode_rescale_file()
     downloader.split_video()
+    downloader.merge_videos()
