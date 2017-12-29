@@ -40,7 +40,7 @@ class YouTubeDownloader():
         search_result = {}
 
         for video_id in video_ids:
-            content = downloader.getClosedCaptions(video_id)
+            content = self.getClosedCaptions(video_id)
             search_result[video_id] = content
         return search_result
 
