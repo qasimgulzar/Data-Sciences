@@ -160,15 +160,19 @@ def process_text(allstr, word_count_and_most_used_global, min_paragraph_length=5
             out_dir=downloader.split_video(file_path="%s/%s-encoded.mp4" % (video_id, video_id),
                                    out_dir='clips', video_id=video_id)
 
-    out_file_path=downloader.merge_videos(src_dir='clips')
-    print(out_file_path)
+    out_file_path=downloader.merge_videos(src_dir=out_dir,out_dir="downloads")
+    return out_file_path
 
 if __name__ == '__main__':
-    with open('test1.txt') as f:
+    with open('test5.txt') as f:
         allstr = f.readlines()
-
+        downloader=YouTubeDownloader()
+        audio_file_path=downloader.text_to_speech(text=" ".join(allstr))
+        print(audio_file_path)
         words = tokenize_remove_stopwords(" ".join(allstr).lower())
 
         word_count_and_most_used_global = word_count_with_most_used(words)
 
-        process_text(allstr=allstr, word_count_and_most_used_global=word_count_and_most_used_global)
+        merged_file=process_text(allstr=allstr, word_count_and_most_used_global=word_count_and_most_used_global)
+        final_video=downloader.overlap_audio(video_path=merged_file,audio_path=audio_file_path)
+        print(final_video)

@@ -18,7 +18,7 @@ class YouTubeDownloader():
         import urllib.parse
         import re
         query_string = urllib.parse.urlencode({"search_query": search_query})
-        html_content = urllib.request.urlopen("http://www.youtube.com/results?sp=EgQoATAB&" + query_string)
+        html_content = urllib.request.urlopen("http://www.youtube.com/results?sp=EgYYASgBMAE%253D&" + query_string)
         search_results = re.findall(r'href=\"\/watch\?v=(.{11})', html_content.read().decode())
         # for result in search_results:
         #     print("http://www.youtube.com/watch?v=" + result)
@@ -61,6 +61,8 @@ class YouTubeDownloader():
                             'text'] and query_keyword in subscript['text']):
                             text = subscript['text']
                             duration = float(subscript['attr']['dur'])
+                            if duration > 20:
+                                continue
                             start = float(subscript['attr']['start'])
                             start_time = time.strftime("%H:%M:%S", time.gmtime(start))
                             end_time = time.strftime("%H:%M:%S", time.gmtime(start + duration))
@@ -114,9 +116,9 @@ class YouTubeDownloader():
             i = 0
             for subs in subscript:
                 out_file = os.path.join(out_dir, "%s-%s%s%s" % (
-                video_id, str(i), subs['start_time'] + "|" + subs['end_time'], file_extension))
+                    video_id, str(i), subs['start_time'] + "|" + subs['end_time'], file_extension))
                 subprocess.call(
-                    ["/usr/bin/ffmpeg", "-i", str(file_path), '-ss', subs['start_time'], '-t', subs['end_time'],
+                    ["/usr/bin/ffmpeg", "-y", "-i", str(file_path), '-ss', subs['start_time'], '-t', subs['end_time'],
                      '-async', '1', str(out_file)])
                 i = i + 1
         return out_dir
@@ -127,9 +129,19 @@ class YouTubeDownloader():
         encoded_file_path = os.path.abspath(os.path.join(self.out_dir, encoded_file_path))
         import subprocess
         subprocess.call(
-            ["/usr/bin/ffmpeg", "-r", "30", "-i", str(file_path), "-vf", "scale=640:360", "-c:v", "libx264", "-crf",
+            ["/usr/bin/ffmpeg", "-y", "-r", "30", "-i", str(file_path), "-vf", "scale=640:360", "-c:v", "libx264",
+             "-crf",
              "18", "-preset", "medium", "-c:a", "copy", encoded_file_path])
         return encoded_file_path
+
+    def overlap_audio(self, audio_path, video_path, out_file='outfile.mp4'):
+        out_file = os.path.abspath(os.path.join(self.out_dir, out_file))
+        import subprocess
+        subprocess.call(
+            ["/usr/bin/ffmpeg", "-y", "-i", video_path, "-i", audio_path, '-shortest', '-c:v', 'copy', '-c:a', 'aac',
+             '-strict', 'experimental', '-b:a',
+             '256k', '-map', '0:v:0', '-map', '1:a:0', out_file])
+        return out_file
 
     def merge_videos(self, src_dir='downloads/vt-zXEsJ61U/clips', out_dir='downloads/vt-zXEsJ61U/clips',
                      out_name='merged_video.mp4'):
@@ -141,13 +153,14 @@ class YouTubeDownloader():
         if os.path.exists(list_file_path):
             os.remove(list_file_path)
         file_list = glob.glob(os.path.abspath(os.path.join(src_dir, '*')))
-        file_list.sort(lambda f: os.path.getmtime(f))
+        file_list.sort(key=lambda f: os.path.getmtime(f))
         with open(list_file_path, 'w') as list_file:
             for f in file_list:
                 list_file.write("file '%s'\n" % f)
 
         subprocess.call(
-            ["/usr/bin/ffmpeg", "-f", "concat", "-safe", "0", "-i", "%s" % list_file_path, "-c", "copy", out_file_path])
+            ["/usr/bin/ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "%s" % list_file_path, "-c", "copy",
+             out_file_path])
         return out_file_path
 
     def select_video_id(self, extracted_info=[]):
@@ -162,6 +175,13 @@ class YouTubeDownloader():
     def clean(self):
         if os.path.exists(self.out_dir):
             shutil.rmtree(self.out_dir)
+
+    def text_to_speech(self, fname='auto_generated_audio.mp3', text='Good morning', lang='en'):
+        from gtts import gTTS
+        import os
+        tts = gTTS(text=text, lang=lang, debug=False)
+        tts.save(fname)
+        return os.path.join(os.getcwd(), fname)
 
 
 if __name__ == '__main__':
