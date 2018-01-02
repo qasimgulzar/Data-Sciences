@@ -103,6 +103,7 @@ def process_text(allstr, word_count_and_most_used_global, min_paragraph_length=5
     downloader = YouTubeDownloader()
     paragraph_list = []
     paragraph_text = ""
+    used_videos=[]
     for str in allstr:
         paragraph_text = "%s %s" % (paragraph_text, str)
         if len(paragraph_text.strip().split(' ')) > min_paragraph_length:
@@ -155,19 +156,23 @@ def process_text(allstr, word_count_and_most_used_global, min_paragraph_length=5
             extracted_info = downloader.extractClipDurations()
             json.dump(extracted_info, open('extracted-subscripts.json', 'w'), indent=4)
             video_id = downloader.select_video_id(extracted_info=extracted_info)
+            if not video_id or video_id in used_videos:
+                continue
+            used_videos.append(video_id)
             downloader.download_video(video_id=video_id, filename=video_id)
             downloader.encode_rescale_file(file_path=os.path.join(video_id,"%s.mp4"%video_id),encoded_file_path=os.path.join(video_id,"%s-encoded.mp4"%video_id))
             out_dir=downloader.split_video(file_path="%s/%s-encoded.mp4" % (video_id, video_id),
-                                   out_dir='clips', video_id=video_id)
+                                   out_dir='clips', video_id=video_id,split_max=1)
 
     out_file_path=downloader.merge_videos(src_dir=out_dir,out_dir="downloads")
     return out_file_path
 
 if __name__ == '__main__':
-    with open('test5.txt') as f:
+    with open('test4.txt') as f:
         allstr = f.readlines()
         downloader=YouTubeDownloader()
         audio_file_path=downloader.text_to_speech(text=" ".join(allstr))
+        # audio_file_path="/home/frt/codebase/data-analysis/auto_generated_audio.mp3"
         print(audio_file_path)
         words = tokenize_remove_stopwords(" ".join(allstr).lower())
 

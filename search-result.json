@@ -1,1238 +1,302 @@
 {
-    "VnQu4uylfOs": [
+    "XbZ8zDpX2Mg": [
         {
             "attr": {
-                "start": "0.76",
-                "dur": "5.08"
+                "start": "0.82",
+                "dur": "2.91"
             },
-            "text": "What do you mean when you say a transaction"
+            "text": "This one time, bitcoin went from 6 cents"
         },
         {
             "attr": {
-                "start": "5.84",
-                "dur": "3.8"
-            },
-            "text": "is &quot;incorrect&quot;? What is the difference between &quot;correct&quot;"
-        },
-        {
-            "attr": {
-                "start": "9.64",
-                "dur": "1"
-            },
-            "text": "and &quot;incorrect&quot;?"
-        },
-        {
-            "attr": {
-                "start": "10.94",
-                "dur": "1.3"
-            },
-            "text": "That&#39;s a great question."
-        },
-        {
-            "attr": {
-                "start": "12.52",
-                "dur": "3.26"
-            },
-            "text": "There are a set of rules within the system,"
-        },
-        {
-            "attr": {
-                "start": "15.84",
-                "dur": "5.2"
-            },
-            "text": "probably about thirty or forty rules altogether,"
-        },
-        {
-            "attr": {
-                "start": "21.04",
-                "dur": "3.1"
-            },
-            "text": "that the software analyses."
-        },
-        {
-            "attr": {
-                "start": "24.14",
-                "dur": "5.4"
-            },
-            "text": "For example, if a transaction says my address is paying"
-        },
-        {
-            "attr": {
-                "start": "29.68",
-                "dur": "4.3"
-            },
-            "text": "your address some amount, well..."
-        },
-        {
-            "attr": {
-                "start": "34.26",
-                "dur": "1.44"
-            },
-            "text": "1. A correct transaction is one where"
-        },
-        {
-            "attr": {
-                "start": "35.88",
-                "dur": "4.62"
-            },
-            "text": "my address is correctly formatted as a valid address;"
-        },
-        {
-            "attr": {
-                "start": "40.5",
-                "dur": "2.72"
-            },
-            "text": "your address is correctly formatted as a valid address."
-        },
-        {
-            "attr": {
-                "start": "43.22",
-                "dur": "5.72"
-            },
-            "text": "2. The amount described is within 0-21 million bitcoin,"
-        },
-        {
-            "attr": {
-                "start": "48.94",
-                "dur": "2.14"
-            },
-            "text": "which is the maximum amount you can have."
-        },
-        {
-            "attr": {
-                "start": "51.42",
-                "dur": "4.68"
-            },
-            "text": "I [must] actually have that amount to pay you;"
-        },
-        {
-            "attr": {
-                "start": "56.48",
-                "dur": "1.92"
-            },
-            "text": "if I don&#39;t have it, I can&#39;t pay it."
-        },
-        {
-            "attr": {
-                "start": "59.48",
-                "dur": "2.24"
-            },
-            "text": "3. That amount hasn&#39;t been spent before from"
-        },
-        {
-            "attr": {
-                "start": "61.84",
-                "dur": "2.78"
-            },
-            "text": "my account, so it&#39;s not being &quot;double-spent.&quot;"
-        },
-        {
-            "attr": {
-                "start": "65.06",
-                "dur": "3.12"
-            },
-            "text": "4. The transaction has sufficient fee to pay the network."
-        },
-        {
-            "attr": {
-                "start": "68.34",
-                "dur": "2.82"
-            },
-            "text": "There is all of these little rules, not just for transactions"
-        },
-        {
-            "attr": {
-                "start": "71.34",
-                "dur": "2.54"
-            },
-            "text": "but also for the blocks that contain them."
-        },
-        {
-            "attr": {
-                "start": "73.88",
-                "dur": "1.66"
-            },
-            "text": "They&#39;re cumulative."
-        },
-        {
-            "attr": {
-                "start": "75.54",
-                "dur": "3.08"
-            },
-            "text": "My signature has to be correctly formatted."
-        },
-        {
-            "attr": {
-                "start": "79",
-                "dur": "5.76"
-            },
-            "text": "Those are the logical, &quot;human-level&quot; rules."
-        },
-        {
-            "attr": {
-                "start": "85.08",
-                "dur": "3.16"
-            },
-            "text": "There is thirty or so rules that are very [much] at the"
-        },
-        {
-            "attr": {
-                "start": "88.34",
-                "dur": "4.02"
-            },
-            "text": "programming level: the first three bits of the version"
-        },
-        {
-            "attr": {
-                "start": "92.4",
-                "dur": "2.96"
-            },
-            "text": "number of the transaction have to be &#39;x,&#39;"
-        },
-        {
-            "attr": {
-                "start": "95.42",
-                "dur": "3.42"
-            },
-            "text": "unless the timelock on the transaction is set,"
-        },
-        {
-            "attr": {
-                "start": "98.84",
-                "dur": "1.66"
-            },
-            "text": "in which case these version bits..."
-        },
-        {
-            "attr": {
-                "start": "100.5",
-                "dur": "3.12"
-            },
-            "text": "You know, all of these arcane rules, which have to do"
-        },
-        {
-            "attr": {
-                "start": "103.62",
-                "dur": "3.58"
-            },
-            "text": "with analysing the format of the transaction."
-        },
-        {
-            "attr": {
-                "start": "107.94",
-                "dur": "2.04"
-            },
-            "text": "But your software does that, so you don&#39;t need to worry"
-        },
-        {
-            "attr": {
-                "start": "109.98",
-                "dur": "2.56"
-            },
-            "text": "about it. You just say, &quot;I have money, I give you money...&quot;"
-        },
-        {
-            "attr": {
-                "start": "112.9",
-                "dur": "1.96"
-            },
-            "text": "Click, click, boom, done."
-        },
-        {
-            "attr": {
-                "start": "114.86",
+                "start": "3.73",
                 "dur": "3.76"
             },
-            "text": "Your software will produce a valid transaction."
+            "text": "all the way to 36 cents and then it\ncrashed"
         },
         {
             "attr": {
-                "start": "119.36",
-                "dur": "1.76"
-            },
-            "text": "The important thing to check is..."
-        },
-        {
-            "attr": {
-                "start": "121.3",
-                "dur": "3"
-            },
-            "text": "The software is not [asking], &quot;Are you a good person?&quot;"
-        },
-        {
-            "attr": {
-                "start": "124.3",
-                "dur": "4.2"
-            },
-            "text": "&quot;Are you a bad person? Are you on a list of good people.."
-        },
-        {
-            "attr": {
-                "start": "128.7",
-                "dur": "2.28"
-            },
-            "text": ".. or bad people?&quot; &quot;Are you allowed?&quot;"
-        },
-        {
-            "attr": {
-                "start": "131.08",
-                "dur": "2.36"
-            },
-            "text": "&quot;When were you born?&quot; &quot;What is your gender?&quot;"
-        },
-        {
-            "attr": {
-                "start": "133.44",
-                "dur": "3.48"
-            },
-            "text": "&quot;What is your religion?&quot; None of those are in the rules."
-        },
-        {
-            "attr": {
-                "start": "137.76",
-                "dur": "2.2"
-            },
-            "text": "That&#39;s the important distinction."
-        }
-    ],
-    "pdauofdGFBM": [
-        {
-            "attr": {
-                "start": "7.6",
-                "dur": "2"
-            },
-            "text": "This is how you pay in Paralelni Polis"
-        },
-        {
-            "attr": {
-                "start": "9.6",
-                "dur": "2"
-            },
-            "text": "One beer..."
-        },
-        {
-            "attr": {
-                "start": "20.84",
-                "dur": "1.46"
-            },
-            "text": "Done :)"
-        },
-        {
-            "attr": {
-                "start": "34.32",
-                "dur": "1.62"
-            },
-            "text": "Cheers!"
-        }
-    ],
-    "GqOZ4IAQ-xQ": [
-        {
-            "attr": {
-                "start": "1.02",
-                "dur": "5.64"
-            },
-            "text": "[QUESTIONER]: Banks, they play a huge role in our economy. [ANDREAS]: So far. [QUESTIONER]: So far."
-        },
-        {
-            "attr": {
-                "start": "6.66",
-                "dur": "5.58"
-            },
-            "text": "What is going to happen with them?\nWhat is going to be the bank&#39;s role in 2018?"
-        },
-        {
-            "attr": {
-                "start": "12.24",
-                "dur": "2.559"
-            },
-            "text": "Are they going to disappear?"
-        },
-        {
-            "attr": {
-                "start": "14.8",
-                "dur": "4.96"
-            },
-            "text": "[ANDREAS]: No, they&#39;re not gonna disappear.\nIf you go to Central Park, New York..."
-        },
-        {
-            "attr": {
-                "start": "19.76",
-                "dur": "7.1"
-            },
-            "text": "You go there with your wife or your significant other,\nand you&#39;re visiting Central Park,"
-        },
-        {
-            "attr": {
-                "start": "26.88",
-                "dur": "5.02"
-            },
-            "text": "they have these beautiful horse carriages \nthat you can ride around Central Park in."
-        },
-        {
-            "attr": {
-                "start": "32.28",
-                "dur": "5.34"
-            },
-            "text": "Apparently, horse carriages didn&#39;t disappear \nwith the invention of the automobile."
-        },
-        {
-            "attr": {
-                "start": "38.64",
-                "dur": "6.24"
-            },
-            "text": "So banks won&#39;t either. They&#39;ll be the kind\nof institution that has significantly less power,"
-        },
-        {
-            "attr": {
-                "start": "44.88",
-                "dur": "4.32"
-            },
-            "text": "and is mostly used for legacy applications.\nMaybe governments will use them more."
-        },
-        {
-            "attr": {
-                "start": "49.72",
-                "dur": "5.24"
-            },
-            "text": "[QUESTIONER]: That&#39;s actually what they&#39;re doing\nright now, with the blockchain that they&#39;re building."
-        },
-        {
-            "attr": {
-                "start": "54.98",
-                "dur": "2.46"
-            },
-            "text": "The centralised blockchain."
-        },
-        {
-            "attr": {
-                "start": "58.32",
-                "dur": "3.54"
-            },
-            "text": "[ANDREAS]: Well, the centralised blockchain\nis a contradiction in terms."
-        },
-        {
-            "attr": {
-                "start": "61.86",
-                "dur": "2.62"
-            },
-            "text": "The purpose of a blockchain is to\nincrease decentralisation."
-        },
-        {
-            "attr": {
-                "start": "64.48",
-                "dur": "3.24"
-            },
-            "text": "A centralised blockchain is like\na horseless carriage with a horse."
-        },
-        {
-            "attr": {
-                "start": "68.28",
-                "dur": "4"
-            },
-            "text": "If you do a horseless carriage \nwith a horse, that&#39;s a horse carriage..."
-        },
-        {
-            "attr": {
-                "start": "72.3",
-                "dur": "3.44"
-            },
-            "text": "and we already have those,\nso you didn&#39;t really change anything."
-        },
-        {
-            "attr": {
-                "start": "75.74",
-                "dur": "3.76"
-            },
-            "text": "It&#39;s like saying, &quot;The technology behind\n the automobile is the pneumatic tire.&quot;"
-        },
-        {
-            "attr": {
-                "start": "79.5",
-                "dur": "3.02"
-            },
-            "text": "&quot;Let&#39;s adopt pneumatic tires\nand put horses in front of them.&quot;"
-        },
-        {
-            "attr": {
-                "start": "82.92",
+                "start": "7.49",
                 "dur": "4.04"
             },
-            "text": "It won&#39;t work. Now, I hope they spend\nanother billion dollars trying to figure out"
+            "text": "down to 21 cents and another time"
         },
         {
             "attr": {
-                "start": "86.96",
-                "dur": "3.56"
+                "start": "11.53",
+                "dur": "3.35"
             },
-            "text": ".. that it won&#39;t work, training lots and lots\n of blockchain engineers who will eventually"
+            "text": "bitcoin went from 85 cents all the way to"
         },
         {
             "attr": {
-                "start": "90.52",
-                "dur": "3.239"
+                "start": "14.88",
+                "dur": "5"
             },
-            "text": ".. come to Bitcoin and Ethereum,\nand do some interesting projects."
+            "text": "29 dollars, and then it crashed\nall the way to 3 dollars."
         },
         {
             "attr": {
-                "start": "93.76",
-                "dur": "7.36"
+                "start": "19.88",
+                "dur": "3.559"
             },
-            "text": "But banking as an institution is obsolete.\nBanking is now a protocol, banking is an app."
+            "text": "and then another time bitcoin"
         },
         {
             "attr": {
-                "start": "101.12",
-                "dur": "6.04"
+                "start": "23.439",
+                "dur": "3.981"
             },
-            "text": "That world is never going to go back.\nIt just may take 20-30 years until you see"
+            "text": "all the way to $213"
         },
         {
             "attr": {
-                "start": "107.16",
-                "dur": "5.58"
+                "start": "27.42",
+                "dur": "5.249"
             },
-            "text": ".. that ripple through the world. But it will,\nand there&#39;s absolutely nothing that can stop it."
+            "text": "and then it crashed all the way to $70"
         },
         {
             "attr": {
-                "start": "113.7",
-                "dur": "5.28"
+                "start": "32.669",
+                "dur": "3.931"
             },
-            "text": "[QUESTIONER]: In Sydney, there&#39;s a lot of\ntalk about blockchain, because there&#39;s a lot"
+            "text": "And then another time..."
         },
         {
             "attr": {
-                "start": "118.98",
-                "dur": "4.02"
+                "start": "36.6",
+                "dur": "4.61"
             },
-            "text": ".. of fear from the banks. They&#39;re investing\na lot of money in the ecosystem. [ANDREAS]: Yes."
+            "text": "bitcoin went all the way to $1100"
         },
         {
             "attr": {
-                "start": "123",
-                "dur": "4.76"
-            },
-            "text": "[QUESTIONER]: How can we use the fear from\nthe banks to make sure we build the ecosystem"
-        },
-        {
-            "attr": {
-                "start": "127.76",
-                "dur": "2.62"
-            },
-            "text": ".. and do all the great things that we want to do?"
-        },
-        {
-            "attr": {
-                "start": "130.38",
-                "dur": "5.12"
-            },
-            "text": "[ANDREAS]: Oh, we don&#39;t need to persuade\nthe banks to do this right."
-        },
-        {
-            "attr": {
-                "start": "135.98",
-                "dur": "4.72"
-            },
-            "text": "They&#39;re putting hundreds of millions of dollars into things that, as they&#39;re building them now,"
-        },
-        {
-            "attr": {
-                "start": "140.7",
-                "dur": "6.54"
-            },
-            "text": "won&#39;t work. Absolutely. They&#39;re training\ntens of thousands of developers on"
-        },
-        {
-            "attr": {
-                "start": "147.24",
-                "dur": "4.94"
-            },
-            "text": ".. how blockchains work. There are [only] a few very\ninteresting, open, borderless, decentralised,"
-        },
-        {
-            "attr": {
-                "start": "152.18",
-                "dur": "5.26"
-            },
-            "text": ".. open innovation, open permission blockchains.\nI&#39;m hoping the best of the best of these developers -"
-        },
-        {
-            "attr": {
-                "start": "157.44",
-                "dur": "5.56"
-            },
-            "text": "after getting bored for a couple of years \ndoing proof-of-concept on reinventing spreadsheets -"
-        },
-        {
-            "attr": {
-                "start": "163",
-                "dur": "4.86"
-            },
-            "text": "will take their Christmas bonus, and on\nJanuary 1st use it to fund a startup"
-        },
-        {
-            "attr": {
-                "start": "167.86",
+                "start": "41.21",
                 "dur": "3.4"
             },
-            "text": ".. to compete against the banks\nthat taught them how to do this."
+            "text": "and then crashed all the way to"
         },
         {
             "attr": {
-                "start": "171.26",
-                "dur": "7.56"
-            },
-            "text": "I&#39;ve seen this! I&#39;ve talked to people from these banks, telling me, &quot;I got my Christmas bonus on January 1st.&quot;"
-        },
-        {
-            "attr": {
-                "start": "178.82",
-                "dur": "4.08"
-            },
-            "text": "&quot;I started a Bitcoin startup to\ncompete against my former employer.&quot;"
-        },
-        {
-            "attr": {
-                "start": "182.9",
-                "dur": "5.34"
-            },
-            "text": "This is going to happen. The beauty is: \nwe just cracked the market wide open."
-        },
-        {
-            "attr": {
-                "start": "188.24",
-                "dur": "3.82"
-            },
-            "text": "When it comes to an open market,\ncompetition will determine the outcome."
-        },
-        {
-            "attr": {
-                "start": "192.06",
-                "dur": "5.62"
-            },
-            "text": "If you continue to build horse buggies\nin the age of the automobile, you go out of business."
-        },
-        {
-            "attr": {
-                "start": "197.68",
-                "dur": "6.36"
-            },
-            "text": "Simple as that, and most of them will.\nThe dinosaurs will survive, but they will"
-        },
-        {
-            "attr": {
-                "start": "204.04",
-                "dur": "5.3"
-            },
-            "text": ".. but they will change and lose enough power\nuntil they become chickens."
-        },
-        {
-            "attr": {
-                "start": "209.34",
-                "dur": "6.9"
-            },
-            "text": "That&#39;s what happened to the dinosaurs. [laughter]\nWe have their children for breakfast every morning!"
-        }
-    ],
-    "tzv37d4TGAk": [
-        {
-            "attr": {
-                "start": "1.18",
-                "dur": "1"
-            },
-            "text": "Hi!"
-        },
-        {
-            "attr": {
-                "start": "2.18",
-                "dur": "4.38"
-            },
-            "text": "Today I would like to show you, how you can\nget the latest price of any cryptocurrency"
-        },
-        {
-            "attr": {
-                "start": "6.56",
-                "dur": "1.009"
-            },
-            "text": "into Excel."
-        },
-        {
-            "attr": {
-                "start": "7.569",
-                "dur": "2.361"
-            },
-            "text": "it is actually very easy."
-        },
-        {
-            "attr": {
-                "start": "9.93",
-                "dur": "8.8"
-            },
-            "text": "All you have to do is copy and paste the VBA\nmacro shown in the description below into"
-        },
-        {
-            "attr": {
-                "start": "18.73",
-                "dur": "2.17"
-            },
-            "text": "Excel."
-        },
-        {
-            "attr": {
-                "start": "20.9",
-                "dur": "8.139"
-            },
-            "text": "I quickly show you now how it works you start\na new Excel file, go down there to &quot;Sheet 1&quot;"
-        },
-        {
-            "attr": {
-                "start": "29.039",
-                "dur": "9.991"
-            },
-            "text": ", click there with your right mouse button,\nselect &quot;View Code&quot;."
-        },
-        {
-            "attr": {
-                "start": "39.03",
-                "dur": "3.41"
-            },
-            "text": "The VBA editor is opening."
-        },
-        {
-            "attr": {
-                "start": "42.44",
-                "dur": "12.5"
-            },
-            "text": "Here you simply click on &quot;Insert --&gt; Module&quot;\nand then select the whole code of the macro"
-        },
-        {
-            "attr": {
-                "start": "54.94",
-                "dur": "14.37"
-            },
-            "text": "copy it, paste it into the newly created module,\nclose the Visual Basic editor again and now"
-        },
-        {
-            "attr": {
-                "start": "69.31",
-                "dur": "15.54"
-            },
-            "text": "you can simply get the value you are interested\nin by writing the following text: =CryptoQuote(&quot;BTC&quot;)."
-        },
-        {
-            "attr": {
-                "start": "84.85",
-                "dur": "6.66"
-            },
-            "text": "And here you have to enter now the ticker\nsymbol of the currency you are interested"
-        },
-        {
-            "attr": {
-                "start": "91.51",
-                "dur": "5.32"
-            },
-            "text": "in, for example Bitcoin is BTC."
-        },
-        {
-            "attr": {
-                "start": "96.83",
-                "dur": "2.109"
-            },
-            "text": "Then you close the bracket again."
-        },
-        {
-            "attr": {
-                "start": "98.939",
-                "dur": "3.991"
-            },
-            "text": "Voila, here is the price."
-        },
-        {
-            "attr": {
-                "start": "102.93",
-                "dur": "11.049"
-            },
-            "text": "In order to find the right ticker symbol you\nshould go to a website like CryptoCompare"
-        },
-        {
-            "attr": {
-                "start": "113.979",
+                "start": "44.61",
                 "dur": "4.82"
             },
-            "text": "and enter the name of your token."
+            "text": "$239. So the moral on this story is:"
         },
         {
             "attr": {
-                "start": "118.799",
-                "dur": "1.821"
+                "start": "49.43",
+                "dur": "3.8"
             },
-            "text": "Example would be Monero."
-        },
-        {
-            "attr": {
-                "start": "120.62",
-                "dur": "7.52"
-            },
-            "text": "You see, the ticker symbol of Monero is XMR."
-        },
-        {
-            "attr": {
-                "start": "128.14",
-                "dur": "2.75"
-            },
-            "text": "This is what you also have to enter here."
-        },
-        {
-            "attr": {
-                "start": "130.89",
-                "dur": "13.01"
-            },
-            "text": "So if I replace BTC with XMR you get the current\nprice of the Monero token."
-        },
-        {
-            "attr": {
-                "start": "143.9",
-                "dur": "7.559"
-            },
-            "text": "What you also have to take into account:This\nis the price in Euro."
-        },
-        {
-            "attr": {
-                "start": "151.459",
-                "dur": "12.49"
-            },
-            "text": "If you want some other Fiat currency you are\nsupposed to change it here in the VBA code."
-        },
-        {
-            "attr": {
-                "start": "163.949",
-                "dur": "6.991"
-            },
-            "text": "So if you want US-Dollar for example you change\nEUR to USD."
-        },
-        {
-            "attr": {
-                "start": "170.94",
-                "dur": "5.28"
-            },
-            "text": "That&#39;s actually all already."
-        },
-        {
-            "attr": {
-                "start": "176.22",
-                "dur": "1.15"
-            },
-            "text": "Thanks for watching!"
-        },
-        {
-            "attr": {
-                "start": "177.37",
-                "dur": "0.6"
-            },
-            "text": "Bye!"
+            "text": "don&#39;t buy bitcoins. Because you know it&#39;s\ngonna crash again."
         }
     ],
-    "8tddbn-YzeU": [],
-    "MNXSDaD97x0": [],
-    "f7BNN7puom0": [
+    "0zcn5qVIflA": [
         {
             "attr": {
-                "start": "212.34",
-                "dur": "7"
+                "start": "4.19",
+                "dur": "11.06"
             },
-            "text": "Cryptocurrency Trading \ncryptocurrency trading signals\ncryptocurrency trading tips\ncryptocurrency trading sites\ncryptocurrency trading software\ncryptocurrency trading guide\ncryptocurrency trading in pakistan\ncryptocurrency trading platform\ncryptocurrency trading strategy\ncryptocurrency trading bot\ncryptocurrency trading signals telegram\ncryptocurrency trading app\ncryptocurrency trading in india\ncryptocurrency trading australia\ncryptocurrency trading reddit\ncryptocurrency trading course\ncryptocurrency trading forum\ncryptocurrency trading pdf\ncryptocurrency trading simulator\ncryptocurrency trading in nigeria\ncryptocurrency trading tools\ncryptocurrency trading algorithms\ncryptocurrency trading api\ncryptocurrency trading advice\ncryptocurrency trading app ios\ncryptocurrency trading analysis\ncryptocurrency trading and taxes\ncryptocurrency trading app android\ncryptocurrency trading alerts\ncryptocurrency trading application\ncryptocurrency trading android\ncryptocurrency trading app india\ncryptocurrency trading ai\ncryptocurrency trading academy\ncryptocurrency trading arbitrage\ncryptocurrency trading app iphone\ncryptocurrency trading algo\ncryptocurrency trading automated\ncryptocurrency trading book\ncryptocurrency trading basics\ncryptocurrency trading brokers\ncryptocurrency trading bot reddit\ncryptocurrency trading bot github\ncryptocurrency trading blog\ncryptocurrency trading bot python\ncryptocurrency trading by country\ncryptocurrency trading business\ncryptocurrency trading bittrex\ncryptocurrency trading bot review\ncryptocurrency trading best\ncryptocurrency trading book pdf\ncryptocurrency trading between exchanges\ncryptocurrency trading bot bittrex\ncryptocurrency trading bonus\ncryptocurrency trading bot algorithm\ncryptocurrency trading bot strategies\ncryptocurrency trading best sites\ncryptocurrency trading charts\ncryptocurrency trading calculator\ncryptocurrency trading canada\ncryptocurrency trading company\ncryptocurrency trading complete guide to trading altcoins\ncryptocurrency trading classes\ncryptocurrency trading chat\ncryptocurrency trading club\ncryptocurrency trading community\ncryptocurrency trading calls\ncryptocurrency trading coinbase\ncryptocurrency trading costs\ncryptocurrency trading china\ncryptocurrency trading comparison\ncryptocurrency trading course london\ncryptocurrency trading chat rooms\ncryptocurrency trading coach\ncryptocurrency trading certification\ncryptocurrency trading course free\ncryptocurrency trading demo\ncryptocurrency trading data\ncryptocurrency trading demo account\ncryptocurrency trading discord\ncryptocurrency trading desk\ncryptocurrency trading definition\ncryptocurrency trading dashboard\ncryptocurrency trading deep learning\ncryptocurrency trading daily\ncryptocurrency trading dubai\ncryptocurrency day trading\ncryptocurrency trading exchange\ncryptocurrency trading explained\ncryptocurrency trading excel\ncryptocurrency trading ebook\ncryptocurrency trading education\ncryptocurrency trading excel sheet\ncryptocurrency trading experts\ncryptocurrency trading exchange india\ncryptocurrency trading europe\ncryptocurrency trading engine\ncryptocurrency trading for beginners\ncryptocurrency trading fees\ncryptocurrency trading firm\ncryptocurrency trading fund\ncryptocurrency trading fundamentals\ncryptocurrency trading free\ncryptocurrency trading for beginners reddit\ncryptocurrency trading forecast\ncryptocurrency trading forex\ncryptocurrency trading for dummies pdf\ncryptocurrency trading for beginners pdf\ntrading cryptocurrency for profit\nfree cryptocurrency trading bot\ncryptocurrency trading group\ncryptocurrency trading guide pdf\ncryptocurrency trading game\ncryptocurrency trading guide reddit\ncryptocurrency trading graph\ncryptocurrency trading github\ncryptocurrency trading hours\ncryptocurrency trading how to\ncryptocurrency trading history\ncryptocurrency trading halal\ncryptocurrency trading hong kong\ncryptocurrency trading how to start\ncryptocurrency trading indicators\ncryptocurrency trading in australia\ncryptocurrency trading ideas\ncryptocurrency trading in canada\ncryptocurrency trading in uae\ncryptocurrency trading in hindi\ncryptocurrency trading in usa\ncryptocurrency trading in philippines\ncryptocurrency trading information\ncryptocurrency trading in south africa\ncryptocurrency trading in singapore\ncryptocurrency trading in uk\ncryptocurrency trading in kenya\ncryptocurrency trading in china\ncryptocurrency trading investopedia\ncryptocurrency trading investment\ncryptocurrency trading ios\ncryptocurrency trading jobs\ncryptocurrency trading journal\ncryptocurrency trading kraken\ncryptocurrency trading live\ncryptocurrency trading lessons\ncryptocurrency trading list\ncryptocurrency trading learning\ncryptocurrency trading legal\ncryptocurrency trading leverage\ncryptocurrency trading log\ncryptocurrency trading license\ncryptocurrency trading laws\ncryptocurrency trading live stream\ncryptocurrency trading london\ncryptocurrency trading library\ncryptocurrency trading legal in india\ncryptocurrency trading market\ncryptocurrency trading meaning\ncryptocurrency trading malaysia\ncryptocurrency trading machine learning\ncryptocurrency trading mt4\ncryptocurrency trading millionaires\ncryptocurrency trading mistakes\ncryptocurrency trading methods\ncryptocurrency trading mentor\ncryptocurrency trading mobile app\ncryptocurrency trading news\ncryptocurrency trading nz\ncryptocurrency trading newsletter\ncryptocurrency trading nairaland\ncryptocurrency trading no fees\ncryptocurrency trading new york\ncryptocurrency trading new zealand\ncryptocurrency trading no deposit bonus\ncryptocurrency trading online\ncryptocurrency trading online course\ncryptocurrency trading on bittrex\ncryptocurrency trading on weekends\ncryptocurrency trading on mobile\ncryptocurrency trading bot open source\ncryptocurrency trading pakistan\ncryptocurrency trading platform reviews\ncryptocurrency trading philippines\ncryptocurrency trading platform in india\ncryptocurrency trading platform uk\ncryptocurrency trading podcast\ncryptocurrency trading platform australia\ncryptocurrency trading profit calculator\ncryptocurrency trading pairs\ncryptocurrency trading program\ncryptocurrency trading prices\ncryptocurrency trading platform canada\ncryptocurrency trading platform reddit\ncryptocurrency trading practice\ncryptocurrency trading profit\ncryptocurrency trading python\ncryptocurrency trading prediction\ncryptocurrency trading plan\ncryptocurrency trading quora\ncryptocurrency trading robot\ncryptocurrency trading review\ncryptocurrency trading rules\ncryptocurrency trading recommendations\ncryptocurrency trading room\ncryptocurrency trading regulations\ncryptocurrency trading rates\ncryptocurrency trading risks\ncryptocurrency trading resources\ncryptocurrency trading script\ncryptocurrency trading south africa\ncryptocurrency trading singapore\ncryptocurrency trading spreadsheet\ncryptocurrency trading strategy pdf\ncryptocurrency trading system\ncryptocurrency trading strategy reddit\ncryptocurrency trading sites in india\ncryptocurrency trading success stories\ncryptocurrency trading school\ncryptocurrency trading slack\ncryptocurrency trading secrets\ncryptocurrency trading setup\ncryptocurrency trading seminar\ncryptocurrency trading tutorial\ncryptocurrency trading training\ncryptocurrency trading taxes\ncryptocurrency trading telegram group\ncryptocurrency trading time\ncryptocurrency trading terms\ncryptocurrency trading techniques\ncryptocurrency trading technical analysis\ncryptocurrency trading tricks\ncryptocurrency trading tutorial pdf\ncryptocurrency trading tracker\ncryptocurrency trading terminology\ncryptocurrency trading twitter\ncryptocurrency trading terminal\ncryptocurrency trading tips in hindi\ncryptocurrency trading thailand\ncryptocurrency trading today\ncryptocurrency trading trends\ncryptocurrency trading uk\ncryptocurrency trading usa\ncryptocurrency trading udemy\ncryptocurrency trading uae\ncryptocurrency trading uk tax\ncryptocurrency trading us\ncryptocurrency trading volume\ncryptocurrency trading volume by country\ncryptocurrency trading view\ncryptocurrency trading vs stock trading\ncryptocurrency trading values\ncryptocurrency trading video\ncryptocurrency trading vs forex\ncryptocurrency trading vs mining\ncryptocurrency trading websites\ncryptocurrency trading whatsapp group\ncryptocurrency trading wiki\ncryptocurrency trading with python\ncryptocurrency trading with leverage\ncryptocurrency trading wallet\ncryptocurrency trading with no fees\ncryptocurrency trading workshop\ncryptocurrency trading weekends\ncryptocurrency trading washington state\ncryptocurrency trading youtube\ncryptocurrency trading tips for beginners\ncryptocurrency trading tips reddit\ncryptocurrency trading sites australia\ncryptocurrency trading sites reddit\ncryptocurrency trading website\nbest cryptocurrency trading sites\ncryptocurrency trading software reddit\ncryptocurrency trading software open source\nguide to trading cryptocurrency"
+            "text": "I wanted to talk today about something I see\nalot of people having a hard time understanding."
         },
         {
             "attr": {
-                "start": "219.34",
-                "dur": "0.5"
+                "start": "15.25",
+                "dur": "5"
             },
-            "text": "how to trade bitcoins to make money\nhow to trade bitcoins to make money pdf\nhow to trade bitcoins and make money"
+            "text": "And what I&#39;m talking about is the idea that\nbitcoin is here to stay."
         },
         {
             "attr": {
-                "start": "219.88",
-                "dur": "2.78"
+                "start": "20.25",
+                "dur": "2.44"
             },
-            "text": "what is Cryptocurrency Trading\nwhat is cryptocurrency trading bot\nwhat is cryptocurrency trading volume"
-        }
-    ],
-    "_SAoBWH4IV8": [],
-    "MNTObCr4gnM": [
-        {
-            "attr": {
-                "start": "3.7",
-                "dur": "3.14"
-            },
-            "text": "Leon-Gerard Vandenberg"
+            "text": "Bitcoin has proven its track record."
         },
         {
             "attr": {
-                "start": "6.9",
-                "dur": "1.92"
+                "start": "22.69",
+                "dur": "8.06"
             },
-            "text": "So tell us about your &quot;BitSim&quot; here"
+            "text": "Bitcoin is still at its earlier stage and\nwe are so so so early."
         },
         {
             "attr": {
-                "start": "12.04",
-                "dur": "2.96"
-            },
-            "text": "Let me just get a close-up of this, this is a crazy thing."
-        },
-        {
-            "attr": {
-                "start": "15.06",
-                "dur": "4.82"
-            },
-            "text": "So... it&#39;s a very thin piece of plastic"
-        },
-        {
-            "attr": {
-                "start": "20.28",
-                "dur": "1.84"
-            },
-            "text": "with a chip on it-"
-        },
-        {
-            "attr": {
-                "start": "22.12",
-                "dur": "1.54"
-            },
-            "text": "-There&#39;s actually two chips on it."
-        },
-        {
-            "attr": {
-                "start": "23.66",
-                "dur": "2.161"
-            },
-            "text": "It&#39;s what we call our Zero Footprint SIM"
-        },
-        {
-            "attr": {
-                "start": "26.022",
-                "dur": "2.72"
-            },
-            "text": "so the hardware is actually called a ZSIM"
-        },
-        {
-            "attr": {
-                "start": "28.742",
-                "dur": "0.5"
-            },
-            "text": "Right"
-        },
-        {
-            "attr": {
-                "start": "29.242",
-                "dur": "1.5"
-            },
-            "text": "That&#39;s what we&#39;ve nominally called it"
-        },
-        {
-            "attr": {
-                "start": "30.742",
-                "dur": "2.065"
-            },
-            "text": "because it&#39;s a zero-footprint SIM"
-        },
-        {
-            "attr": {
-                "start": "34.03",
-                "dur": "4.24"
-            },
-            "text": "it fits inbetween the original SIM and the carrier&#39;s cellphone"
-        },
-        {
-            "attr": {
-                "start": "39.655",
-                "dur": "4.64"
-            },
-            "text": "and it interposes SIM commands between the original SIM and the phone"
-        },
-        {
-            "attr": {
-                "start": "44.295",
-                "dur": "5.492"
-            },
-            "text": "so the phone thinks there&#39;s a SIM there and the original SIM thinks there&#39;s a phone there"
-        },
-        {
-            "attr": {
-                "start": "49.787",
-                "dur": "2.062"
-            },
-            "text": "So it&#39;s a port redirector for SIM commands"
-        },
-        {
-            "attr": {
-                "start": "54.705",
-                "dur": "2"
-            },
-            "text": "Also on top is a Java smart card"
-        },
-        {
-            "attr": {
-                "start": "56.705",
-                "dur": "0.91"
-            },
-            "text": "So there&#39;s a sandbox for doing financial transactions"
-        },
-        {
-            "attr": {
-                "start": "57.672",
-                "dur": "4"
-            },
-            "text": "and it&#39;s an NFC sim so we can do Touch &amp; Go transactions as well"
-        },
-        {
-            "attr": {
-                "start": "61.876",
-                "dur": "0.5"
-            },
-            "text": "wow"
-        },
-        {
-            "attr": {
-                "start": "62.699",
-                "dur": "4.8"
-            },
-            "text": "So we&#39;re converging both bitcoin wallets - private keys - all under a PIN"
-        },
-        {
-            "attr": {
-                "start": "68.213",
-                "dur": "5.28"
-            },
-            "text": "with the traditional platform for delivering financial cards, payment cards"
-        },
-        {
-            "attr": {
-                "start": "73.493",
-                "dur": "2.42"
-            },
-            "text": "and that all happens without carrier permission"
-        },
-        {
-            "attr": {
-                "start": "76.36",
-                "dur": "3.14"
-            },
-            "text": "and without basic phone provider permission"
-        },
-        {
-            "attr": {
-                "start": "79.72",
-                "dur": "2.04"
-            },
-            "text": "so we&#39;re really the last hop-off point to the customer"
-        },
-        {
-            "attr": {
-                "start": "81.92",
-                "dur": "0.5"
-            },
-            "text": "yeah"
-        },
-        {
-            "attr": {
-                "start": "82.54",
-                "dur": "3.64"
-            },
-            "text": "without having to play the game with the security element on NFC phones"
-        },
-        {
-            "attr": {
-                "start": "86.188",
-                "dur": "2.035"
-            },
-            "text": "and without having to play the game with the carriers."
-        },
-        {
-            "attr": {
-                "start": "88.223",
-                "dur": "4.72"
-            },
-            "text": "All we do is encrypt an SMS message and take it anywhere in the world where we can do settlement."
-        },
-        {
-            "attr": {
-                "start": "93.08",
-                "dur": "6.28"
-            },
-            "text": "Oh wow, so you use SMS as the data layer and you encrypt that so that it&#39;s secret"
-        },
-        {
-            "attr": {
-                "start": "99.58",
-                "dur": "1.993"
-            },
-            "text": "and you don&#39;t need permission!"
-        },
-        {
-            "attr": {
-                "start": "101.9",
-                "dur": "4.04"
-            },
-            "text": "Correct. So we&#39;re using - just like a set-top-box on a TV"
-        },
-        {
-            "attr": {
-                "start": "106.54",
-                "dur": "3.78"
-            },
-            "text": "we&#39;re using someone else&#39;s infrastructure to deliver our content"
-        },
-        {
-            "attr": {
-                "start": "110.52",
-                "dur": "3.3"
-            },
-            "text": "our content is a very thin payment message"
-        },
-        {
-            "attr": {
-                "start": "114.34",
-                "dur": "3.412"
-            },
-            "text": "that will be a bitcoin private key interchange"
-        },
-        {
-            "attr": {
-                "start": "117.752",
-                "dur": "4.985"
-            },
-            "text": "That&#39;s awesome. So if I understand this correctly it means that a feaure phone, for example"
-        },
-        {
-            "attr": {
-                "start": "122.9",
-                "dur": "6.24"
-            },
-            "text": "can have the sort of functionality for conducting transactions that currently you cannot do "
-        },
-        {
-            "attr": {
-                "start": "129.48",
-                "dur": "5.4"
-            },
-            "text": "So currently feature phones are limited to a very lame set of Java applets"
-        },
-        {
-            "attr": {
-                "start": "135.1",
-                "dur": "2.7"
-            },
-            "text": "that might work on a feature phone and they&#39;re very hard to get-"
-        },
-        {
-            "attr": {
-                "start": "138.16",
-                "dur": "2.04"
-            },
-            "text": "-&quot;J2ME&quot; sort of environment "
-        },
-        {
-            "attr": {
-                "start": "140.4",
-                "dur": "6.16"
-            },
-            "text": "and most of the time the existing feature phone methods use cleartext to send airtime around"
-        },
-        {
-            "attr": {
-                "start": "146.56",
-                "dur": "7.94"
-            },
-            "text": "like Mpesa. Mpesa is really carrier airtime, like Telstra airtime, but sent mate-to-mate, person-to-person"
-        },
-        {
-            "attr": {
-                "start": "154.5",
-                "dur": "1.02"
-            },
-            "text": "in the clear."
-        },
-        {
-            "attr": {
-                "start": "155.7",
+                "start": "30.75",
                 "dur": "4.86"
             },
-            "text": "-Yeah in Kenya, that&#39;s quite a famous example of a digital currency success isn&#39;t it?"
+            "text": "And what are you doing reading the Wikipedia\narticle still trying to figure out what bitcoin"
         },
         {
             "attr": {
-                "start": "160.56",
-                "dur": "0.5"
+                "start": "35.61",
+                "dur": "1"
             },
-            "text": "Correct, yeah."
+            "text": "is?"
         },
         {
             "attr": {
-                "start": "161.48",
-                "dur": "1.24"
+                "start": "36.61",
+                "dur": "2.07"
             },
-            "text": "and so..."
+            "text": "You still have yet to get skin in the game."
         },
         {
             "attr": {
-                "start": "162.76",
-                "dur": "5.46"
+                "start": "38.68",
+                "dur": "3.149"
             },
-            "text": "- So our target markets are to deal with mobile remittance in the developed world"
+            "text": "You&#39;re thinking about doing it but you haven&#39;t\nyet pulled the trigger."
         },
         {
             "attr": {
-                "start": "168.34",
-                "dur": "4.96"
+                "start": "41.829",
+                "dur": "5.78"
             },
-            "text": "and then to do mobile remittance to the developing world using the SIM as the transport layer"
+            "text": "I&#39;m going to tell you today that the time\nto wait is over you need to make a decision."
         },
         {
             "attr": {
-                "start": "173.48",
-                "dur": "4.9"
+                "start": "47.609",
+                "dur": "3.86"
             },
-            "text": "- our ZSIM - and to make bitcoin assets possible with that. "
+            "text": "You need to buy one bitcoin."
         },
         {
             "attr": {
-                "start": "178.44",
-                "dur": "3.24"
+                "start": "51.469",
+                "dur": "1.811"
             },
-            "text": "not just currency but smart contracts and equities as well"
+            "text": "Buy one bitcoin."
         },
         {
             "attr": {
-                "start": "181.796",
-                "dur": "2.08"
+                "start": "53.28",
+                "dur": "3.48"
             },
-            "text": "Wow that sounds really awesome "
+            "text": "We&#39;ve been in this industry since 2009."
         },
         {
             "attr": {
-                "start": "184.02",
-                "dur": "3.12"
+                "start": "56.76",
+                "dur": "1.26"
             },
-            "text": "So just give us your URL or your contact details"
+            "text": "People are familiar with it."
         },
         {
             "attr": {
-                "start": "187.16",
-                "dur": "1.843"
+                "start": "58.02",
+                "dur": "2.059"
             },
-            "text": "so anyone who&#39;s interested can find out more."
+            "text": "People understand how it works."
         },
         {
             "attr": {
-                "start": "192.801",
-                "dur": "3.28"
+                "start": "60.079",
+                "dur": "4.211"
             },
-            "text": "www.bitsim.co Gotcha. Thanks a lot Leon-Gerard"
+            "text": "When I first started it was the really really\nsmart people involved and now we&#39;re getting"
+        },
+        {
+            "attr": {
+                "start": "64.29",
+                "dur": "7"
+            },
+            "text": "more smart people involved but the tilt and\nthe critical mass has passed."
+        },
+        {
+            "attr": {
+                "start": "71.29",
+                "dur": "1.71"
+            },
+            "text": "We&#39;re at the point of no return."
+        },
+        {
+            "attr": {
+                "start": "73",
+                "dur": "2.36"
+            },
+            "text": "Bitcoin is the future of money."
+        },
+        {
+            "attr": {
+                "start": "75.36",
+                "dur": "6.22"
+            },
+            "text": "All the forces in the world are not so powerful\nas an idea whose time has come."
+        },
+        {
+            "attr": {
+                "start": "81.58",
+                "dur": "4.06"
+            },
+            "text": "And that idea, ladies and gentlemen, is bitcoin."
+        },
+        {
+            "attr": {
+                "start": "85.64",
+                "dur": "5.67"
+            },
+            "text": "Do yourself a favor and buy one bitcoin."
+        },
+        {
+            "attr": {
+                "start": "91.31",
+                "dur": "3.96"
+            },
+            "text": "Your future children will thank you."
+        },
+        {
+            "attr": {
+                "start": "95.27",
+                "dur": "7.05"
+            },
+            "text": "Your parents probably won&#39;t understand it\nbut you yourself if you can accumulate even"
+        },
+        {
+            "attr": {
+                "start": "102.32",
+                "dur": "6.35"
+            },
+            "text": "one bitcoin, in 30 years that will put you\nin the top 1% financially."
+        },
+        {
+            "attr": {
+                "start": "108.67",
+                "dur": "4.93"
+            },
+            "text": "Welcome to the new financial elite gentlemen."
+        },
+        {
+            "attr": {
+                "start": "113.6",
+                "dur": "2.94"
+            },
+            "text": "Do yourself a favor."
+        },
+        {
+            "attr": {
+                "start": "116.54",
+                "dur": "3.03"
+            },
+            "text": "Move your money out of your bank."
+        },
+        {
+            "attr": {
+                "start": "119.57",
+                "dur": "1.55"
+            },
+            "text": "Starve the beast."
+        },
+        {
+            "attr": {
+                "start": "121.12",
+                "dur": "3.08"
+            },
+            "text": "And buy one bitcoin."
         }
     ],
-    "mC_eHAsCtnE": [],
     "APpUMd3lU_Y": [
         {
             "attr": {
@@ -1585,955 +649,912 @@
             "text": "dot info"
         }
     ],
-    "YYDyHw-kVgI": [
+    "PWIiOikgQUs": [
         {
             "attr": {
-                "start": "10.8",
-                "dur": "2.24"
+                "start": "0.789",
+                "dur": "3.011"
             },
-            "text": "The Ripples\u2019s technology Interledger Protocol"
+            "text": "OddCoupons.com presents Coinbase coupon codes"
         },
         {
             "attr": {
-                "start": "13.04",
-                "dur": "2.18"
+                "start": "3.8",
+                "dur": "3.619"
             },
-            "text": "could be brought to more widespread use."
+            "text": "the 16th you wait to my job is calling\nonline"
         },
         {
             "attr": {
-                "start": "15.22",
-                "dur": "2"
+                "start": "7.419",
+                "dur": "5.421"
             },
-            "text": "Accogding to the cryptocoinsnews.com,"
+            "text": "be calling this doesn&#39;t go up in value\nenough but I&#39;m seeing action in houses"
         },
         {
             "attr": {
-                "start": "17.22",
-                "dur": "2.06"
+                "start": "12.84",
+                "dur": "3.04"
             },
-            "text": "Ripple serves as co-chair of"
+            "text": "small amounts have been calling the\nQueen Bey"
         },
         {
             "attr": {
-                "start": "19.28",
-                "dur": "2.42"
+                "start": "15.88",
+                "dur": "3.46"
             },
-            "text": "W3C\u2019s Web Payments Working Group,"
+            "text": "Presidents Day I V E so that anyone can\nbuy"
         },
         {
             "attr": {
-                "start": "21.7",
-                "dur": "1.68"
+                "start": "19.34",
+                "dur": "4.12"
             },
-            "text": "putting the company in regular contact"
+            "text": "cell all suspended because online if you\njoin"
         },
         {
             "attr": {
-                "start": "23.38",
-                "dur": "1.74"
+                "start": "23.46",
+                "dur": "3.19"
             },
-            "text": "with technology providers."
+            "text": "you think they below you&#39;ll be able to\nget feedback on"
         },
         {
             "attr": {
-                "start": "25.12",
-                "dur": "2.66"
+                "start": "26.65",
+                "dur": "4.57"
             },
-            "text": "Stefan Thomas, Ripple\u2019s chief technology officer,"
+            "text": "just for signing up keep the in the\ndescription that it is this year to get"
         },
         {
             "attr": {
-                "start": "27.78",
-                "dur": "2.58"
+                "start": "31.22",
+                "dur": "1.17"
             },
-            "text": "said Apple, Google, Mozilla and other players"
+            "text": "your pic 1"
         },
         {
             "attr": {
-                "start": "30.36",
-                "dur": "2.48"
+                "start": "32.39",
+                "dur": "3.169"
             },
-            "text": "are seeking a better user experience for web payments,"
-        },
-        {
-            "attr": {
-                "start": "32.84",
-                "dur": "3.6"
-            },
-            "text": "considering the issues they face relying on card networks."
-        },
-        {
-            "attr": {
-                "start": "36.44",
-                "dur": "2.54"
-            },
-            "text": "Put the likes and subscribe to our channel."
+            "text": "but now get corn maze cream cone houses"
         }
     ],
-    "Lp4W7MS7_tM": [
+    "jHgyHF3F2TI": [
         {
             "attr": {
-                "start": "1.52",
-                "dur": "2.74"
+                "start": "0.099",
+                "dur": "4.37"
             },
-            "text": "WELCOME TO OUR YOUTUBE CHANNEL, CEYLON GANG."
+            "text": "[QUESTIONER]: What do you think is the biggest technical hurdle to Bitcoin adoption and why?"
         },
         {
             "attr": {
-                "start": "4.26",
-                "dur": "6.18"
+                "start": "6.1",
+                "dur": "7.36"
             },
-            "text": "So today, we describe about Online Banking &amp; how get free international debit card."
+            "text": "[ANDREAS]: The biggest technical hurdle to Bitcoin adoption is the fact that it is difficult to understand,"
         },
         {
             "attr": {
                 "start": "13.46",
-                "dur": "2.74"
+                "dur": "7.04"
             },
-            "text": "Firstly, we talk about how create a PAYPAL account."
+            "text": ".. it is difficult to use, it is even more difficult to use securely, and we don&#39;t yet have the user interfaces,"
         },
         {
             "attr": {
-                "start": "17.08",
-                "dur": "3.72"
+                "start": "20.5",
+                "dur": "10.64"
             },
-            "text": "You can sign in paypal like facebook."
+            "text": ".. the compelling killer applications, and the cultural change that&#39;s required. It took years for people to..."
         },
         {
             "attr": {
-                "start": "21.4",
-                "dur": "3.3"
+                "start": "31.14",
+                "dur": "5.6"
             },
-            "text": "Firstly, click on sign up."
+            "text": ".. understand how the internet worked, for applications to come out that were compelling enough for..."
         },
         {
             "attr": {
-                "start": "24.7",
-                "dur": "2.96"
+                "start": "36.74",
+                "dur": "5.52"
             },
-            "text": "And fill the form."
+            "text": ".. user interfaces &amp; user experience to become smooth enough, for people to become comfortable with it."
         },
         {
             "attr": {
-                "start": "27.66",
-                "dur": "1.82"
+                "start": "42.26",
+                "dur": "6.02"
             },
-            "text": "Choose your country."
+            "text": "Some of that is generational, right? Some people will never be comfortable with this new form of money."
         },
         {
             "attr": {
-                "start": "29.48",
-                "dur": "4.22"
+                "start": "48.7",
+                "dur": "5.54"
             },
-            "text": "Put e-mail address. ( You are using. )"
-        },
-        {
-            "attr": {
-                "start": "34.12",
-                "dur": "2.32"
-            },
-            "text": "And enter password."
-        },
-        {
-            "attr": {
-                "start": "36.44",
-                "dur": "0.74"
-            },
-            "text": "Click to next."
-        },
-        {
-            "attr": {
-                "start": "37.18",
-                "dur": "10.16"
-            },
-            "text": "Next form, enter your name, date of birth, address, city, state, post code and your phone number."
-        },
-        {
-            "attr": {
-                "start": "47.34",
-                "dur": "5.42"
-            },
-            "text": "If you don&#39;t know your post code, then search it in the Internet. (example:- Sri Lankan post codes )"
-        },
-        {
-            "attr": {
-                "start": "52.76",
-                "dur": "1.48"
-            },
-            "text": "Click to next."
+            "text": "For anyone under 30 [years old], the idea of the internet running money sounds kind of obvious."
         },
         {
             "attr": {
                 "start": "54.24",
-                "dur": "6.34"
-            },
-            "text": "Next, put your credit or debit card number, expiry date and CVV."
-        },
-        {
-            "attr": {
-                "start": "60.58",
-                "dur": "4.44"
-            },
-            "text": "You can find your card&#39;s CVV in back of your debit or credit card."
-        },
-        {
-            "attr": {
-                "start": "65.28",
-                "dur": "4.48"
-            },
-            "text": "Next click to CONFIRM YOUR EMAIL ADDRESS."
-        },
-        {
-            "attr": {
-                "start": "69.76",
-                "dur": "2.46"
-            },
-            "text": "Then you will receive an email."
-        },
-        {
-            "attr": {
-                "start": "72.22",
-                "dur": "4.68"
-            },
-            "text": "Go to your inbox and view the email and click on that link for confirm your email address."
-        },
-        {
-            "attr": {
-                "start": "76.9",
                 "dur": "2"
             },
-            "text": "Next, we talk about PAYZA."
+            "text": "Why would you do it any other way?"
         },
         {
             "attr": {
-                "start": "78.9",
-                "dur": "2"
+                "start": "58.74",
+                "dur": "6.06"
             },
-            "text": "You can sign up in payza like paypal."
+            "text": "Yet for some people, that is always going to be alien. The idea of trusting a mathematically-based network..."
         },
         {
             "attr": {
-                "start": "80.9",
-                "dur": "2.32"
+                "start": "64.8",
+                "dur": "9.84"
             },
-            "text": "Next we talk about PAYONEER."
+            "text": ".. protocol is never going to be acceptable. Some people still don&#39;t accept currency that isn&#39;t physical gold, right?"
         },
         {
             "attr": {
-                "start": "83.22",
-                "dur": "3"
+                "start": "75.04",
+                "dur": "7.4"
             },
-            "text": "You can get free debit card from here !"
+            "text": "You&#39;ll see people who have that kind of attitude. That&#39;s four hundred years behind the transition, and yet..."
         },
         {
             "attr": {
-                "start": "89.8",
-                "dur": "2.88"
+                "start": "82.48",
+                "dur": "8.12"
             },
-            "text": "Click to sign up."
+            "text": ".. they cling to that. Good for them! Not everybody has to come along for the ride; it won&#39;t be equal everywhere."
         },
         {
             "attr": {
-                "start": "92.68",
-                "dur": "5.32"
+                "start": "90.94",
+                "dur": "8.66"
             },
-            "text": "Fill your name, email address and date of birth"
+            "text": "In some places, bitcoin is being adopted quite rapidly today. I use bitcoin as my income and my expenses..."
         },
         {
             "attr": {
-                "start": "98",
-                "dur": "2"
+                "start": "99.66",
+                "dur": "12.66"
             },
-            "text": "Click to next."
+            "text": ".. a lot of the time. A majority. Not all, can&#39;t do that yet. And I doubt my parents are going to become habitual..."
         },
         {
             "attr": {
-                "start": "100.88",
-                "dur": "11.32"
+                "start": "112.32",
+                "dur": "9.18"
             },
-            "text": "Next, fill your country, address, city, postcode, mobile or land number."
+            "text": ".. bitcoin users. But my mom saved her retirement from Greek banks using bitcoin, and that&#39;s good enough."
         },
         {
             "attr": {
-                "start": "112.2",
-                "dur": "7.2"
+                "start": "121.5",
+                "dur": "6.06"
             },
-            "text": "If you don&#39;t know your post code, then search it in the Internet. (example:- Sri Lankan post codes )"
-        },
-        {
-            "attr": {
-                "start": "119.5",
-                "dur": "1.3"
-            },
-            "text": "Click to next."
-        },
-        {
-            "attr": {
-                "start": "121.04",
-                "dur": "6.52"
-            },
-            "text": "Next form, enter a password ( letters with numbers )"
+            "text": "And it was worth doing. People will come at different speeds. The difficulty is, we need to build better..."
         },
         {
             "attr": {
                 "start": "127.56",
-                "dur": "3.38"
+                "dur": "6.42"
             },
-            "text": "Choose a security question."
+            "text": ".. applications, better security, better user interfaces. We need to explain, explain again, then demonstrate..."
         },
         {
             "attr": {
-                "start": "130.94",
-                "dur": "3.04"
+                "start": "134.66",
+                "dur": "7.58"
             },
-            "text": "Enter your national ID or passport ID."
+            "text": ".. and help people grasp these fundamental changes to how money works. Eventually, what happens?"
         },
         {
             "attr": {
-                "start": "133.98",
-                "dur": "1.24"
+                "start": "142.24",
+                "dur": "6.84"
             },
-            "text": "Click to next."
+            "text": "It&#39;s just a matter of time. The idea of a network-based, decentralised form of money - that exists electronically..."
         },
         {
             "attr": {
-                "start": "135.5",
-                "dur": "3.12"
+                "start": "149.08",
+                "dur": "9.52"
             },
-            "text": "Next form, fill your bank information.( In your country)"
+            "text": ".. and primarily serves an online, connected society - is done. It&#39;s baked. It happened. It will be the dominant..."
         },
         {
             "attr": {
-                "start": "138.62",
-                "dur": "6.56"
+                "start": "158.64",
+                "dur": "6.72"
             },
-            "text": "Enter bank name, account name, account number, SWIFT code and branch code."
+            "text": ".. system of commerce in the future. There is no question in my mind about that. How do we get there?"
         },
         {
             "attr": {
-                "start": "145.18",
-                "dur": "8.52"
-            },
-            "text": "If you don&#39;t know SWIFT code and branch code then you can find it in the Internet."
-        },
-        {
-            "attr": {
-                "start": "153.84",
-                "dur": "2.86"
-            },
-            "text": "Click to next"
-        },
-        {
-            "attr": {
-                "start": "157.9",
-                "dur": "1.36"
-            },
-            "text": "I log in to my account."
-        },
-        {
-            "attr": {
-                "start": "159.26",
-                "dur": "2.82"
-            },
-            "text": "You can see in your account what order a debit card."
-        },
-        {
-            "attr": {
-                "start": "162.08",
-                "dur": "2"
-            },
-            "text": "click it."
-        },
-        {
-            "attr": {
-                "start": "164.08",
-                "dur": "6.28"
-            },
-            "text": "After you can get a free International debit card within 10 or 14 days from normal mail."
-        },
-        {
-            "attr": {
-                "start": "170.36",
-                "dur": "3.86"
-            },
-            "text": "After coming, log in to your payoneer accoun."
-        },
-        {
-            "attr": {
-                "start": "174.22",
+                "start": "165.86",
                 "dur": "3.92"
             },
-            "text": "Then click to arrow and choode prepaid card."
-        },
-        {
-            "attr": {
-                "start": "178.14",
-                "dur": "2.3"
-            },
-            "text": "After click to Activate your debit card."
-        },
-        {
-            "attr": {
-                "start": "180.44",
-                "dur": "2.92"
-            },
-            "text": "Enter a password for your payoneer debit card."
-        },
-        {
-            "attr": {
-                "start": "183.72",
-                "dur": "2.56"
-            },
-            "text": "SUBSCRIBE OUR YOUTUBE CHANNEL."
-        },
-        {
-            "attr": {
-                "start": "186.28",
-                "dur": "1.66"
-            },
-            "text": "LIKE AND SHARE THIS VIDEO."
-        },
-        {
-            "attr": {
-                "start": "187.98",
-                "dur": "1.04"
-            },
-            "text": "COMMENT YOUR COMMENTS."
-        },
-        {
-            "attr": {
-                "start": "189.02",
-                "dur": "1.02"
-            },
-            "text": "We will meet in next video."
-        },
-        {
-            "attr": {
-                "start": "190.04",
-                "dur": "0.84"
-            },
-            "text": "GOOD BYE !"
+            "text": "Who builds the really great apps? They&#39;re going to be very successful."
         }
     ],
-    "0IPi7BXszVQ": [],
-    "qm4sY7bGlEo": [],
-    "X9qEbU8V-IQ": [],
-    "t4p4iMqmxbQ": [],
-    "9EEluhC9SxE": [
+    "tzv37d4TGAk": [
         {
             "attr": {
-                "start": "0",
-                "dur": "4.1"
+                "start": "1.18",
+                "dur": "1"
             },
-            "text": "So, just a question from the community"
+            "text": "Hi!"
         },
         {
             "attr": {
-                "start": "4.1",
-                "dur": "1.7"
+                "start": "2.18",
+                "dur": "4.38"
             },
-            "text": "Segwit vs Bitcoin Unlimited"
+            "text": "Today I would like to show you, how you can\nget the latest price of any cryptocurrency"
         },
         {
             "attr": {
-                "start": "5.98",
-                "dur": "1.76"
+                "start": "6.56",
+                "dur": "1.009"
             },
-            "text": "What is your opinion on it?"
+            "text": "into Excel."
         },
         {
             "attr": {
-                "start": "8.72",
-                "dur": "0.58"
+                "start": "7.569",
+                "dur": "2.361"
             },
-            "text": "Ok"
+            "text": "it is actually very easy."
         },
         {
             "attr": {
-                "start": "10.44",
-                "dur": "4.62"
+                "start": "9.93",
+                "dur": "8.8"
             },
-            "text": "So, This, this is the kind of a really really difficult question."
+            "text": "All you have to do is copy and paste the VBA\nmacro shown in the description below into"
         },
         {
             "attr": {
-                "start": "16.4",
-                "dur": "2.68"
+                "start": "18.73",
+                "dur": "2.17"
             },
-            "text": "But at the same time is fairly easy."
+            "text": "Excel."
         },
         {
             "attr": {
-                "start": "20.12",
-                "dur": "2.06"
+                "start": "20.9",
+                "dur": "8.139"
             },
-            "text": "I am in favor of activating SegWit."
+            "text": "I quickly show you now how it works you start\na new Excel file, go down there to &quot;Sheet 1&quot;"
         },
         {
             "attr": {
-                "start": "22.86",
-                "dur": "1.38"
+                "start": "29.039",
+                "dur": "9.991"
             },
-            "text": "I am in favor of activating SegWit now."
+            "text": ", click there with your right mouse button,\nselect &quot;View Code&quot;."
         },
         {
             "attr": {
-                "start": "24.74",
-                "dur": "0.74"
+                "start": "39.03",
+                "dur": "3.41"
             },
-            "text": "( Applauses )"
+            "text": "The VBA editor is opening."
         },
         {
             "attr": {
-                "start": "25.92",
-                "dur": "1.7"
+                "start": "42.44",
+                "dur": "12.5"
             },
-            "text": "The reason for that, and don&#39;t applaud.."
+            "text": "Here you simply click on &quot;Insert --&gt; Module&quot;\nand then select the whole code of the macro"
         },
         {
             "attr": {
-                "start": "28.08",
-                "dur": "0.9"
+                "start": "54.94",
+                "dur": "14.37"
             },
-            "text": "( Laughs  )"
+            "text": "copy it, paste it into the newly created module,\nclose the Visual Basic editor again and now"
         },
         {
             "attr": {
-                "start": "29.28",
-                "dur": "1.92"
+                "start": "69.31",
+                "dur": "15.54"
             },
-            "text": "Form your own damn opinion"
+            "text": "you can simply get the value you are interested\nin by writing the following text: =CryptoQuote(&quot;BTC&quot;)."
         },
         {
             "attr": {
-                "start": "31.44",
-                "dur": "0.74"
+                "start": "84.85",
+                "dur": "6.66"
             },
-            "text": "( Laughs )"
+            "text": "And here you have to enter now the ticker\nsymbol of the currency you are interested"
         },
         {
             "attr": {
-                "start": "32.54",
-                "dur": "3.56"
+                "start": "91.51",
+                "dur": "5.32"
             },
-            "text": "I am no more the authority you should listen to"
+            "text": "in, for example Bitcoin is BTC."
         },
         {
             "attr": {
-                "start": "36.3",
-                "dur": "0.86"
+                "start": "96.83",
+                "dur": "2.109"
             },
-            "text": "than anyone else"
+            "text": "Then you close the bracket again."
         },
         {
             "attr": {
-                "start": "37.16",
-                "dur": "2.4"
+                "start": "98.939",
+                "dur": "3.991"
             },
-            "text": "This is not a system of belief where"
+            "text": "Voila, here is the price."
         },
         {
             "attr": {
-                "start": "39.56",
-                "dur": "3.4"
+                "start": "102.93",
+                "dur": "11.049"
             },
-            "text": "I say: &quot;FC Barcelona&quot; and you go: &quot;Yeeeaah!!&quot;"
+            "text": "In order to find the right ticker symbol you\nshould go to a website like CryptoCompare"
         },
         {
             "attr": {
-                "start": "45.98",
-                "dur": "0.94"
+                "start": "113.979",
+                "dur": "4.82"
             },
-            "text": "Make up your own mind"
+            "text": "and enter the name of your token."
         },
         {
             "attr": {
-                "start": "47.4",
-                "dur": "3"
+                "start": "118.799",
+                "dur": "1.821"
             },
-            "text": "I&#39;ll tell you why I think that&#39;s true"
+            "text": "Example would be Monero."
         },
         {
             "attr": {
-                "start": "50.4",
-                "dur": "2.6"
+                "start": "120.62",
+                "dur": "7.52"
             },
-            "text": "I think SegWit should be activated now because"
+            "text": "You see, the ticker symbol of Monero is XMR."
         },
         {
             "attr": {
-                "start": "53",
-                "dur": "2.04"
+                "start": "128.14",
+                "dur": "2.75"
             },
-            "text": "it solves a number of different problems"
+            "text": "This is what you also have to enter here."
         },
         {
             "attr": {
-                "start": "55.38",
-                "dur": "2.72"
+                "start": "130.89",
+                "dur": "13.01"
             },
-            "text": "Its the best tested solution that exists"
+            "text": "So if I replace BTC with XMR you get the current\nprice of the Monero token."
         },
         {
             "attr": {
-                "start": "59",
-                "dur": "1.52"
+                "start": "143.9",
+                "dur": "7.559"
             },
-            "text": "I also think that.."
+            "text": "What you also have to take into account:This\nis the price in Euro."
         },
         {
             "attr": {
-                "start": "61.36",
-                "dur": "1.54"
+                "start": "151.459",
+                "dur": "12.49"
             },
-            "text": "I, I will make a disclosure,"
+            "text": "If you want some other Fiat currency you are\nsupposed to change it here in the VBA code."
         },
         {
             "attr": {
-                "start": "63.08",
-                "dur": "1.32"
+                "start": "163.949",
+                "dur": "6.991"
             },
-            "text": "I used to.."
+            "text": "So if you want US-Dollar for example you change\nEUR to USD."
         },
         {
             "attr": {
-                "start": "65.14",
-                "dur": "2.78"
+                "start": "170.94",
+                "dur": "5.28"
             },
-            "text": "think that big blocks would be better."
+            "text": "That&#39;s actually all already."
         },
         {
             "attr": {
-                "start": "68.1",
-                "dur": "1.2"
+                "start": "176.22",
+                "dur": "1.15"
             },
-            "text": "About two years ago."
+            "text": "Thanks for watching!"
         },
         {
             "attr": {
-                "start": "69.88",
-                "dur": "1.5"
+                "start": "177.37",
+                "dur": "0.6"
             },
-            "text": "And I ran.."
+            "text": "Bye!"
+        }
+    ],
+    "VnQu4uylfOs": [
+        {
+            "attr": {
+                "start": "0.76",
+                "dur": "5.08"
+            },
+            "text": "What do you mean when you say a transaction"
         },
         {
             "attr": {
-                "start": "71.68",
-                "dur": "2.18"
+                "start": "5.84",
+                "dur": "3.8"
             },
-            "text": "Classic and XT to evaluate them"
+            "text": "is &quot;incorrect&quot;? What is the difference between &quot;correct&quot;"
         },
         {
             "attr": {
-                "start": "73.86",
-                "dur": "1.96"
+                "start": "9.64",
+                "dur": "1"
             },
-            "text": "I ran Bitcoin Unlimited too"
+            "text": "and &quot;incorrect&quot;?"
         },
         {
             "attr": {
-                "start": "76.24",
-                "dur": "2.4"
+                "start": "10.94",
+                "dur": "1.3"
             },
-            "text": "Not because I thought that we should hardfork to those"
+            "text": "That&#39;s a great question."
         },
         {
             "attr": {
-                "start": "78.64",
-                "dur": "2.46"
+                "start": "12.52",
+                "dur": "3.26"
             },
-            "text": "But to evaluate the software and understand how it works"
+            "text": "There are a set of rules within the system,"
         },
         {
             "attr": {
-                "start": "81.9",
-                "dur": "3.94"
+                "start": "15.84",
+                "dur": "5.2"
             },
-            "text": "And..If the choice was SegWit vs Classic"
+            "text": "probably about thirty or forty rules altogether,"
         },
         {
             "attr": {
-                "start": "86.12",
-                "dur": "1.92"
+                "start": "21.04",
+                "dur": "3.1"
             },
-            "text": "I might say: &quot; You know a year from now"
+            "text": "that the software analyses."
         },
         {
             "attr": {
-                "start": "88.2",
-                "dur": "1.18"
+                "start": "24.14",
+                "dur": "5.4"
             },
-            "text": "we could also do"
+            "text": "For example, if a transaction says my address is paying"
         },
         {
             "attr": {
-                "start": "89.38",
-                "dur": "1.72"
+                "start": "29.68",
+                "dur": "4.3"
             },
-            "text": "a bump through Classic"
+            "text": "your address some amount, well..."
         },
         {
             "attr": {
-                "start": "93.22",
-                "dur": "2.42"
-            },
-            "text": "The problem with Unlimited in my opinion"
-        },
-        {
-            "attr": {
-                "start": "95.92",
-                "dur": "2.66"
-            },
-            "text": "is that it doesn&#39;t change the rules"
-        },
-        {
-            "attr": {
-                "start": "99.02",
-                "dur": "4.02"
-            },
-            "text": "it changes, or sets the rulers"
-        },
-        {
-            "attr": {
-                "start": "103.04",
-                "dur": "1.68"
-            },
-            "text": "who then get to change the rules"
-        },
-        {
-            "attr": {
-                "start": "104.72",
-                "dur": "3.48"
-            },
-            "text": "And that is a VERY dangerous thing to do in Bitcoin"
-        },
-        {
-            "attr": {
-                "start": "108.2",
-                "dur": "3.34"
-            },
-            "text": "Specially if it is done as a contentious hardfork"
-        },
-        {
-            "attr": {
-                "start": "111.56",
-                "dur": "2.9"
-            },
-            "text": "I think Bitcoin Unlimited is a completely untested"
-        },
-        {
-            "attr": {
-                "start": "114.46",
-                "dur": "1.68"
-            },
-            "text": "system of consensus"
-        },
-        {
-            "attr": {
-                "start": "116.14",
-                "dur": "2.7"
-            },
-            "text": "If somebody wants to test that with 51%"
-        },
-        {
-            "attr": {
-                "start": "118.88",
-                "dur": "2.34"
-            },
-            "text": "it is going to be an interesting experiment"
-        },
-        {
-            "attr": {
-                "start": "121.96",
-                "dur": "2.6"
-            },
-            "text": "Bitcoin is going to get attacked eventually"
-        },
-        {
-            "attr": {
-                "start": "124.62",
-                "dur": "2.02"
-            },
-            "text": "maybe is better if it gets attacked sooner"
-        },
-        {
-            "attr": {
-                "start": "126.64",
-                "dur": "1.52"
-            },
-            "text": "rather than later"
-        },
-        {
-            "attr": {
-                "start": "128.68",
-                "dur": "4.98"
-            },
-            "text": "If you hold Bitcoin as an investment"
-        },
-        {
-            "attr": {
-                "start": "134.22",
-                "dur": "2.2"
-            },
-            "text": "this would be painful"
-        },
-        {
-            "attr": {
-                "start": "136.42",
-                "dur": "2.08"
-            },
-            "text": "So, hardforking Bitcoin"
-        },
-        {
-            "attr": {
-                "start": "138.7",
-                "dur": "2.62"
-            },
-            "text": "with a low percentage and without"
-        },
-        {
-            "attr": {
-                "start": "141.92",
+                "start": "34.26",
                 "dur": "1.44"
             },
-            "text": "Very broad consensus"
+            "text": "1. A correct transaction is one where"
         },
         {
             "attr": {
-                "start": "143.46",
-                "dur": "1.56"
+                "start": "35.88",
+                "dur": "4.62"
             },
-            "text": "would damage Bitcoin"
+            "text": "my address is correctly formatted as a valid address;"
         },
         {
             "attr": {
-                "start": "145.02",
-                "dur": "2.68"
+                "start": "40.5",
+                "dur": "2.72"
             },
-            "text": "We will end up with two chains that will survive"
+            "text": "your address is correctly formatted as a valid address."
         },
         {
             "attr": {
-                "start": "148.44",
-                "dur": "3.18"
+                "start": "43.22",
+                "dur": "5.72"
             },
-            "text": "And the sum of their value will be far less"
+            "text": "2. The amount described is within 0-21 million bitcoin,"
         },
         {
             "attr": {
-                "start": "151.62",
-                "dur": "2.8"
+                "start": "48.94",
+                "dur": "2.14"
             },
-            "text": "than the sum of value we have in Bitcoin today."
+            "text": "which is the maximum amount you can have."
         },
         {
             "attr": {
-                "start": "154.62",
-                "dur": "2.06"
+                "start": "51.42",
+                "dur": "4.68"
             },
-            "text": "I think that&#39;s a very bad idea"
+            "text": "I [must] actually have that amount to pay you;"
         },
         {
             "attr": {
-                "start": "156.9",
-                "dur": "1.02"
-            },
-            "text": "Not my choice!"
-        },
-        {
-            "attr": {
-                "start": "159.04",
-                "dur": "0.56"
-            },
-            "text": "However,"
-        },
-        {
-            "attr": {
-                "start": "159.9",
-                "dur": "1.82"
-            },
-            "text": "Here is something I can tell you"
-        },
-        {
-            "attr": {
-                "start": "161.72",
-                "dur": "4.78"
-            },
-            "text": "Bitcoin as a currency; as a means of exchange"
-        },
-        {
-            "attr": {
-                "start": "167.18",
-                "dur": "1.12"
-            },
-            "text": "The way I use it"
-        },
-        {
-            "attr": {
-                "start": "168.3",
-                "dur": "1.6"
-            },
-            "text": "for getting paid for my job"
-        },
-        {
-            "attr": {
-                "start": "170.4",
+                "start": "56.48",
                 "dur": "1.92"
             },
-            "text": "works at two hundred dollars"
+            "text": "if I don&#39;t have it, I can&#39;t pay it."
         },
         {
             "attr": {
-                "start": "173",
-                "dur": "1.88"
+                "start": "59.48",
+                "dur": "2.24"
             },
-            "text": "At two thousand dollars"
+            "text": "3. That amount hasn&#39;t been spent before from"
         },
         {
             "attr": {
-                "start": "175.02",
+                "start": "61.84",
+                "dur": "2.78"
+            },
+            "text": "my account, so it&#39;s not being &quot;double-spent.&quot;"
+        },
+        {
+            "attr": {
+                "start": "65.06",
+                "dur": "3.12"
+            },
+            "text": "4. The transaction has sufficient fee to pay the network."
+        },
+        {
+            "attr": {
+                "start": "68.34",
+                "dur": "2.82"
+            },
+            "text": "There is all of these little rules, not just for transactions"
+        },
+        {
+            "attr": {
+                "start": "71.34",
+                "dur": "2.54"
+            },
+            "text": "but also for the blocks that contain them."
+        },
+        {
+            "attr": {
+                "start": "73.88",
                 "dur": "1.66"
             },
-            "text": "and at twenty dollars"
+            "text": "They&#39;re cumulative."
         },
         {
             "attr": {
-                "start": "179.16",
-                "dur": "2.4"
+                "start": "75.54",
+                "dur": "3.08"
             },
-            "text": "It doesn&#39;t change, for me."
+            "text": "My signature has to be correctly formatted."
         },
         {
             "attr": {
-                "start": "181.68",
-                "dur": "2.28"
+                "start": "79",
+                "dur": "5.76"
             },
-            "text": "Bitcoin as a stable store of value however,"
+            "text": "Those are the logical, &quot;human-level&quot; rules."
         },
         {
             "attr": {
-                "start": "183.96",
-                "dur": "1.88"
+                "start": "85.08",
+                "dur": "3.16"
             },
-            "text": "doesn&#39;t work with a hardfork"
+            "text": "There is thirty or so rules that are very [much] at the"
         },
         {
             "attr": {
-                "start": "185.84",
-                "dur": "2.84"
+                "start": "88.34",
+                "dur": "4.02"
             },
-            "text": "So, it really depends on what you use it for"
+            "text": "programming level: the first three bits of the version"
         },
         {
             "attr": {
-                "start": "188.68",
+                "start": "92.4",
+                "dur": "2.96"
+            },
+            "text": "number of the transaction have to be &#39;x,&#39;"
+        },
+        {
+            "attr": {
+                "start": "95.42",
+                "dur": "3.42"
+            },
+            "text": "unless the timelock on the transaction is set,"
+        },
+        {
+            "attr": {
+                "start": "98.84",
+                "dur": "1.66"
+            },
+            "text": "in which case these version bits..."
+        },
+        {
+            "attr": {
+                "start": "100.5",
+                "dur": "3.12"
+            },
+            "text": "You know, all of these arcane rules, which have to do"
+        },
+        {
+            "attr": {
+                "start": "103.62",
                 "dur": "3.58"
             },
-            "text": "And there is probably a broader discussion to be had there."
+            "text": "with analysing the format of the transaction."
+        },
+        {
+            "attr": {
+                "start": "107.94",
+                "dur": "2.04"
+            },
+            "text": "But your software does that, so you don&#39;t need to worry"
+        },
+        {
+            "attr": {
+                "start": "109.98",
+                "dur": "2.56"
+            },
+            "text": "about it. You just say, &quot;I have money, I give you money...&quot;"
+        },
+        {
+            "attr": {
+                "start": "112.9",
+                "dur": "1.96"
+            },
+            "text": "Click, click, boom, done."
+        },
+        {
+            "attr": {
+                "start": "114.86",
+                "dur": "3.76"
+            },
+            "text": "Your software will produce a valid transaction."
+        },
+        {
+            "attr": {
+                "start": "119.36",
+                "dur": "1.76"
+            },
+            "text": "The important thing to check is..."
+        },
+        {
+            "attr": {
+                "start": "121.3",
+                "dur": "3"
+            },
+            "text": "The software is not [asking], &quot;Are you a good person?&quot;"
+        },
+        {
+            "attr": {
+                "start": "124.3",
+                "dur": "4.2"
+            },
+            "text": "&quot;Are you a bad person? Are you on a list of good people.."
+        },
+        {
+            "attr": {
+                "start": "128.7",
+                "dur": "2.28"
+            },
+            "text": ".. or bad people?&quot; &quot;Are you allowed?&quot;"
+        },
+        {
+            "attr": {
+                "start": "131.08",
+                "dur": "2.36"
+            },
+            "text": "&quot;When were you born?&quot; &quot;What is your gender?&quot;"
+        },
+        {
+            "attr": {
+                "start": "133.44",
+                "dur": "3.48"
+            },
+            "text": "&quot;What is your religion?&quot; None of those are in the rules."
+        },
+        {
+            "attr": {
+                "start": "137.76",
+                "dur": "2.2"
+            },
+            "text": "That&#39;s the important distinction."
         }
     ],
-    "kJs8HLV6Dco": [],
+    "7Fw9TS6p1kE": [
+        {
+            "attr": {
+                "start": "2.06",
+                "dur": "3.02"
+            },
+            "text": "Question: Can the price of bitcoin stabilize?"
+        },
+        {
+            "attr": {
+                "start": "5.08",
+                "dur": "3.68"
+            },
+            "text": "A common complaint about bitcoin is that its price is too volatile; "
+        },
+        {
+            "attr": {
+                "start": "8.76",
+                "dur": "4.08"
+            },
+            "text": "fluctuating too frequently for it to be a practical unit of account."
+        },
+        {
+            "attr": {
+                "start": "12.84",
+                "dur": "3.76"
+            },
+            "text": "However, we haven&#39;t had a truly new form of money for many centuries,"
+        },
+        {
+            "attr": {
+                "start": "16.61",
+                "dur": "2.78"
+            },
+            "text": "and it is quite possible that all currencies, unless mandated by"
+        },
+        {
+            "attr": {
+                "start": "19.39",
+                "dur": "2.35"
+            },
+            "text": "governments to be worth a particular\namount"
+        },
+        {
+            "attr": {
+                "start": "21.75",
+                "dur": "5.31"
+            },
+            "text": "were just as volatile as bitcoin in their infancy,until the market determine the value."
+        },
+        {
+            "attr": {
+                "start": "27.06",
+                "dur": "2.18"
+            },
+            "text": "Bitcoin is only six years old."
+        },
+        {
+            "attr": {
+                "start": "29.24",
+                "dur": "4.999"
+            },
+            "text": "That means bitcoin&#39;s volatility could easily be a result of natural market fluctuations,"
+        },
+        {
+            "attr": {
+                "start": "34.239",
+                "dur": "4.7"
+            },
+            "text": "and therefore should be significantly reduced in time as more people use bitcoin."
+        },
+        {
+            "attr": {
+                "start": "38.98",
+                "dur": "2.76"
+            },
+            "text": "Let&#39;s compare bitcoin to a more stable currency;"
+        },
+        {
+            "attr": {
+                "start": "41.749",
+                "dur": "4.27"
+            },
+            "text": "The US dollar. for example. US dollars are currently used by more than a billion"
+        },
+        {
+            "attr": {
+                "start": "46.019",
+                "dur": "3.461"
+            },
+            "text": "people with 3 Trillion dollars in circulation. "
+        },
+        {
+            "attr": {
+                "start": "49.48",
+                "dur": "4.21"
+            },
+            "text": "In contrast, less than a million people use bitcoin so far, with approximately four"
+        },
+        {
+            "attr": {
+                "start": "53.69",
+                "dur": "2.02"
+            },
+            "text": "billion dollars worth in circulation."
+        },
+        {
+            "attr": {
+                "start": "55.71",
+                "dur": "4"
+            },
+            "text": "If the US Dollar were a boat, it would be the largest vessel on the sea. "
+        },
+        {
+            "attr": {
+                "start": "59.71",
+                "dur": "4.98"
+            },
+            "text": "Waves couldn&#39;t move it up and down, just as market forces don&#39;t usually move the dollar&#39;s value. "
+        },
+        {
+            "attr": {
+                "start": "64.69",
+                "dur": "5.02"
+            },
+            "text": "Bitcoin, being about a tenth of 1% as large as the us dollar is today,"
+        },
+        {
+            "attr": {
+                "start": "69.71",
+                "dur": "4.22"
+            },
+            "text": "would be like a tiny jet ski... it moves up\nand down with every wave,"
+        },
+        {
+            "attr": {
+                "start": "73.93",
+                "dur": "3.32"
+            },
+            "text": "similar to how the market can push its price up and down daily."
+        },
+        {
+            "attr": {
+                "start": "77.25",
+                "dur": "4.96"
+            },
+            "text": "That means the larger the bitcoin user base grows, the more stable bitcoins price should be."
+        },
+        {
+            "attr": {
+                "start": "82.31",
+                "dur": "4.32"
+            },
+            "text": "The good news is that the number of people using bitcoin has been growing steadily,"
+        },
+        {
+            "attr": {
+                "start": "86.63",
+                "dur": "3.84"
+            },
+            "text": "and so have investments into the bitcoin infrastructure. "
+        },
+        {
+            "attr": {
+                "start": "90.47",
+                "dur": "1.92"
+            },
+            "text": "All it will take is enough people adopting bitcoin,"
+        },
+        {
+            "attr": {
+                "start": "92.39",
+                "dur": "2.66"
+            },
+            "text": "and the price should stabilize all on its own."
+        }
+    ],
     "1dEcdGc0tIo": [
         {
             "attr": {
@@ -2815,5 +1836,2573 @@
             },
             "text": "Good luck. I hope you keep that attitude until the very end"
         }
-    ]
+    ],
+    "-O6DcTwAhqM": [
+        {
+            "attr": {
+                "start": "0",
+                "dur": "5.04"
+            },
+            "text": "SEC Report Finds Cryptocurrency Markets Trade To Federal Securities Laws"
+        }
+    ],
+    "xJhFaDNipO4": [
+        {
+            "attr": {
+                "start": "0.429",
+                "dur": "3.001"
+            },
+            "text": "We&#39;re going to learn how to use TIQL to make\ntrades from as low as one cent."
+        },
+        {
+            "attr": {
+                "start": "3.43",
+                "dur": "2.879"
+            },
+            "text": "First of all you have to choose your market."
+        },
+        {
+            "attr": {
+                "start": "6.309",
+                "dur": "1.431"
+            },
+            "text": "Let&#39;s choose oil."
+        },
+        {
+            "attr": {
+                "start": "9.82",
+                "dur": "3.24"
+            },
+            "text": "When you first start it&#39;ll load the latest\nprices"
+        },
+        {
+            "attr": {
+                "start": "13.06",
+                "dur": "1.54"
+            },
+            "text": "to make sure you&#39;re completely up to date."
+        },
+        {
+            "attr": {
+                "start": "14.61",
+                "dur": "2.96"
+            },
+            "text": "You can zoom in or out to get a better picture\nof where you are."
+        },
+        {
+            "attr": {
+                "start": "17.57",
+                "dur": "3.97"
+            },
+            "text": "When you&#39;re trading in TIQL you have to set\na target price."
+        },
+        {
+            "attr": {
+                "start": "21.54",
+                "dur": "4.91"
+            },
+            "text": "The market price, which has fallen recently,\nlet&#39;s presume we think it&#39;s going"
+        },
+        {
+            "attr": {
+                "start": "26.47",
+                "dur": "1.51"
+            },
+            "text": "to go back up."
+        },
+        {
+            "attr": {
+                "start": "27.98",
+                "dur": "3.4"
+            },
+            "text": "So let me just click where we think it&#39;s going\nto go to."
+        },
+        {
+            "attr": {
+                "start": "31.38",
+                "dur": "4.47"
+            },
+            "text": "You can actually predict down or up."
+        },
+        {
+            "attr": {
+                "start": "35.85",
+                "dur": "5.52"
+            },
+            "text": "Now choose the account you want to use and\nit will set a stop price and choose a risk"
+        },
+        {
+            "attr": {
+                "start": "41.37",
+                "dur": "1.43"
+            },
+            "text": "for you."
+        },
+        {
+            "attr": {
+                "start": "42.8",
+                "dur": "4.39"
+            },
+            "text": "What these mean: the stop price is where you\nthink the market won&#39;t go to."
+        },
+        {
+            "attr": {
+                "start": "47.19",
+                "dur": "3.47"
+            },
+            "text": "The closer you set it the more risk you&#39;re\ntaking."
+        },
+        {
+            "attr": {
+                "start": "50.66",
+                "dur": "2.28"
+            },
+            "text": "That also means the more you can win."
+        },
+        {
+            "attr": {
+                "start": "52.94",
+                "dur": "4.869"
+            },
+            "text": "The further away you set it the less likely\nit is to hit that price but then the less"
+        },
+        {
+            "attr": {
+                "start": "57.809",
+                "dur": "1"
+            },
+            "text": "you&#39;ll win."
+        },
+        {
+            "attr": {
+                "start": "58.809",
+                "dur": "3.68"
+            },
+            "text": "You can also change the amount that you want\nto risk on the trade."
+        },
+        {
+            "attr": {
+                "start": "62.489",
+                "dur": "4.951"
+            },
+            "text": "Note that in TIQL, unlike many other applications,\nyou never lose more than you&#39;ve risked."
+        },
+        {
+            "attr": {
+                "start": "67.44",
+                "dur": "3.23"
+            },
+            "text": "So for instance here we can risk as low as\none cent if we want."
+        },
+        {
+            "attr": {
+                "start": "70.67",
+                "dur": "3.93"
+            },
+            "text": "But you have to make sure you can always win\nat least five cents."
+        },
+        {
+            "attr": {
+                "start": "74.6",
+                "dur": "1.3"
+            },
+            "text": "Let&#39;s choose ten cents."
+        },
+        {
+            "attr": {
+                "start": "75.9",
+                "dur": "6.99"
+            },
+            "text": "And if we set that a little closer... Risk 10\ncents to win 33."
+        },
+        {
+            "attr": {
+                "start": "82.89",
+                "dur": "1.339"
+            },
+            "text": "And that&#39;s it."
+        },
+        {
+            "attr": {
+                "start": "84.229",
+                "dur": "4.21"
+            },
+            "text": "Just click &quot;Trade Now&quot; and our trade has started."
+        },
+        {
+            "attr": {
+                "start": "88.439",
+                "dur": "2.851"
+            },
+            "text": "Now as the price moves we&#39;ll start to win\nor lose money."
+        },
+        {
+            "attr": {
+                "start": "91.29",
+                "dur": "2.79"
+            },
+            "text": "We&#39;ve already started to win as the market\nprices come in."
+        },
+        {
+            "attr": {
+                "start": "94.08",
+                "dur": "4.27"
+            },
+            "text": "You can leave it as long as you want but if\nit hits the red line or the green line it&#39;ll"
+        },
+        {
+            "attr": {
+                "start": "98.35",
+                "dur": "2.35"
+            },
+            "text": "stop automatically."
+        },
+        {
+            "attr": {
+                "start": "100.7",
+                "dur": "5.2"
+            },
+            "text": "If you press stop early you may have to pay\na small charge but if you leave it for up"
+        },
+        {
+            "attr": {
+                "start": "105.9",
+                "dur": "5.039"
+            },
+            "text": "to ten minutes the charge goes to zero."
+        },
+        {
+            "attr": {
+                "start": "110.939",
+                "dur": "1"
+            },
+            "text": "That&#39;s it!"
+        },
+        {
+            "attr": {
+                "start": "111.939",
+                "dur": "1.36"
+            },
+            "text": "We can exit and leave it running."
+        },
+        {
+            "attr": {
+                "start": "113.3",
+                "dur": "5.499"
+            },
+            "text": "There&#39;s two trades currently active and I can\nput as many as I want on at the same time."
+        },
+        {
+            "attr": {
+                "start": "118.799",
+                "dur": "2.12"
+            },
+            "text": "TIQL. Serious Fun!"
+        }
+    ],
+    "TELUATe2auc": [
+        {
+            "attr": {
+                "start": "1.449",
+                "dur": "4.461"
+            },
+            "text": "Welcome to the Endnotes, where I put all the\nfun facts I can\u2019t fit into the main videos!"
+        },
+        {
+            "attr": {
+                "start": "5.91",
+                "dur": "4.88"
+            },
+            "text": "Today, some extra bits of information from\nmy videos about the word Average and the history"
+        },
+        {
+            "attr": {
+                "start": "10.79",
+                "dur": "4.589"
+            },
+            "text": "of insurance \u2014 and if you haven\u2019t seen\nthose yet, click on the card."
+        },
+        {
+            "attr": {
+                "start": "15.379",
+                "dur": "4.221"
+            },
+            "text": "In my series on \u201cAverage\u201d I covered the\norigins of the insurance industry, and along"
+        },
+        {
+            "attr": {
+                "start": "19.6",
+                "dur": "4.92"
+            },
+            "text": "the way I mentioned that the first English\nstockmarket started around the same time as"
+        },
+        {
+            "attr": {
+                "start": "24.52",
+                "dur": "2.18"
+            },
+            "text": "insurance markets\u2014in the late 17th century."
+        },
+        {
+            "attr": {
+                "start": "26.7",
+                "dur": "6.14"
+            },
+            "text": "But that wasn\u2019t the world\u2019s first stockmarket\u2014that\nwas established in Amsterdam in 1602 by the"
+        },
+        {
+            "attr": {
+                "start": "32.84",
+                "dur": "1.85"
+            },
+            "text": "Dutch East India Company."
+        },
+        {
+            "attr": {
+                "start": "34.69",
+                "dur": "4.46"
+            },
+            "text": "And so in this video I\u2019m going to briefly\nlook at a couple of the consequences of that"
+        },
+        {
+            "attr": {
+                "start": "39.15",
+                "dur": "1"
+            },
+            "text": "market."
+        },
+        {
+            "attr": {
+                "start": "40.15",
+                "dur": "2.86"
+            },
+            "text": "With all the money coming in from the Dutch\nEast India Company, there was a lot of money"
+        },
+        {
+            "attr": {
+                "start": "43.01",
+                "dur": "1.91"
+            },
+            "text": "to go around in the Netherlands."
+        },
+        {
+            "attr": {
+                "start": "44.92",
+                "dur": "3.8"
+            },
+            "text": "And when people start getting rich, inevitably\nthey want to have status symbols."
+        },
+        {
+            "attr": {
+                "start": "48.72",
+                "dur": "5.53"
+            },
+            "text": "The status symbol in this case was the Tulip\nwhich had arrived in Europe by way of Turkey,"
+        },
+        {
+            "attr": {
+                "start": "54.25",
+                "dur": "3.01"
+            },
+            "text": "so another contribution from the Islamic world\nto Europe."
+        },
+        {
+            "attr": {
+                "start": "57.26",
+                "dur": "4.34"
+            },
+            "text": "The name itself is also from Turkish (so this\ntime not Arabic in origin)."
+        },
+        {
+            "attr": {
+                "start": "61.6",
+                "dur": "4.89"
+            },
+            "text": "The word tulip is etymologically related to\nthe word turban, from the notion that the"
+        },
+        {
+            "attr": {
+                "start": "66.49",
+                "dur": "2.059"
+            },
+            "text": "flower\u2019s shape resembles a turban."
+        },
+        {
+            "attr": {
+                "start": "68.549",
+                "dur": "5.39"
+            },
+            "text": "Turkish t\u00fclbent \u201cturban\u201d comes in turn\nfrom Persian dulband \u201cturban\u201d."
+        },
+        {
+            "attr": {
+                "start": "73.939",
+                "dur": "4.77"
+            },
+            "text": "So the tulip became very popular in the Netherlands\nin the 1630s, and because the tulip bulbs"
+        },
+        {
+            "attr": {
+                "start": "78.709",
+                "dur": "4.083"
+            },
+            "text": "took a long time to produce, demand outstripped\nsupply, and the price of the tulip shot up."
+        },
+        {
+            "attr": {
+                "start": "82.792",
+                "dur": "1"
+            },
+            "text": "Soon enough people began to buy tulips not\nto plant them but as an investment, hoping"
+        },
+        {
+            "attr": {
+                "start": "83.792",
+                "dur": "3.507"
+            },
+            "text": "to sell them on for profit, and eventually\nthis began to happen on paper only as contracts,"
+        },
+        {
+            "attr": {
+                "start": "87.299",
+                "dur": "5.11"
+            },
+            "text": "what we would now call futures contracts,\nwith tulip bulbs and actual money rarely passing"
+        },
+        {
+            "attr": {
+                "start": "92.409",
+                "dur": "1.62"
+            },
+            "text": "between them."
+        },
+        {
+            "attr": {
+                "start": "94.029",
+                "dur": "4.61"
+            },
+            "text": "As with all market bubbles, the high prices\neventually collapsed, but this in fact seems"
+        },
+        {
+            "attr": {
+                "start": "98.639",
+                "dur": "2.281"
+            },
+            "text": "to be the first example of a market bubble."
+        },
+        {
+            "attr": {
+                "start": "100.92",
+                "dur": "4.719"
+            },
+            "text": "And then, back in England in the early 18th\ncentury, we see the first instance of market"
+        },
+        {
+            "attr": {
+                "start": "105.639",
+                "dur": "1.58"
+            },
+            "text": "manipulation."
+        },
+        {
+            "attr": {
+                "start": "107.219",
+                "dur": "4.47"
+            },
+            "text": "The South Sea Company was created in a scheme\nto consolidate and reduce the cost of national"
+        },
+        {
+            "attr": {
+                "start": "111.689",
+                "dur": "1"
+            },
+            "text": "debt."
+        },
+        {
+            "attr": {
+                "start": "112.689",
+                "dur": "4.081"
+            },
+            "text": "The company was granted a trade monopoly with\nSouth America, but the founders of the company"
+        },
+        {
+            "attr": {
+                "start": "116.77",
+                "dur": "5.55"
+            },
+            "text": "themselves had no actual belief or intention\nthat anything would come of this monopoly\u2014it"
+        },
+        {
+            "attr": {
+                "start": "122.32",
+                "dur": "2.359"
+            },
+            "text": "was, indeed, an out-and-out fraud!"
+        },
+        {
+            "attr": {
+                "start": "124.679",
+                "dur": "4.161"
+            },
+            "text": "Nevertheless, people were seduced by the company\u2019s\npromises and the idea of getting rich off"
+        },
+        {
+            "attr": {
+                "start": "128.84",
+                "dur": "6.009"
+            },
+            "text": "trading with the exotic new world, and the\nstock price soared before inevitably crashing."
+        },
+        {
+            "attr": {
+                "start": "134.849",
+                "dur": "4.431"
+            },
+            "text": "Many were ruined by the collapse and many\nwere implicated in the scheme, but ultimately"
+        },
+        {
+            "attr": {
+                "start": "139.28",
+                "dur": "4.47"
+            },
+            "text": "the event led to the Bubble Act passed by\nBritish Parliament which forbade the formation"
+        },
+        {
+            "attr": {
+                "start": "143.75",
+                "dur": "4.72"
+            },
+            "text": "of any other joint-stock companies unless\napproved by royal charter."
+        },
+        {
+            "attr": {
+                "start": "148.47",
+                "dur": "3.629"
+            },
+            "text": "As always, you can hear even more etymology\nand history, as well as interviews with a"
+        },
+        {
+            "attr": {
+                "start": "152.099",
+                "dur": "5.17"
+            },
+            "text": "wide range of fascinating people, on the Endless\nKnot Podcast, available on all the major podcast"
+        },
+        {
+            "attr": {
+                "start": "157.269",
+                "dur": "3.351"
+            },
+            "text": "platforms as well as our other YouTube channel."
+        },
+        {
+            "attr": {
+                "start": "160.62",
+                "dur": "0.799"
+            },
+            "text": "Thanks for watching!"
+        }
+    ],
+    "m4DaIzwmfz4": [
+        {
+            "attr": {
+                "start": "0.88",
+                "dur": "2.18"
+            },
+            "text": "Wondering what domain investing is?"
+        },
+        {
+            "attr": {
+                "start": "3.26",
+                "dur": "1.98"
+            },
+            "text": "Here\u2019s an overview to get you started."
+        },
+        {
+            "attr": {
+                "start": "5.42",
+                "dur": "1.4"
+            },
+            "text": "Like all types of investing,"
+        },
+        {
+            "attr": {
+                "start": "6.9",
+                "dur": "3.94"
+            },
+            "text": "in commodities, the stock market, art, real estate, and so on,"
+        },
+        {
+            "attr": {
+                "start": "11.02",
+                "dur": "3.94"
+            },
+            "text": "domain investing involves buying something, in this case a domain name,"
+        },
+        {
+            "attr": {
+                "start": "15.14",
+                "dur": "3.02"
+            },
+            "text": "with the goal of eventually selling it for a profit."
+        },
+        {
+            "attr": {
+                "start": "18.32",
+                "dur": "2.34"
+            },
+            "text": "But let\u2019s take a step back for a few seconds."
+        },
+        {
+            "attr": {
+                "start": "20.86",
+                "dur": "5.52"
+            },
+            "text": "To understand domain investing you must first\nbe clear about what a domain name is and isn\u2019t."
+        },
+        {
+            "attr": {
+                "start": "26.58",
+                "dur": "2.6"
+            },
+            "text": "It is NOT a website or an email account."
+        },
+        {
+            "attr": {
+                "start": "29.4",
+                "dur": "4.9"
+            },
+            "text": "Instead, it a numerical address turned into\nuser-friendly text that is used to identify"
+        },
+        {
+            "attr": {
+                "start": "34.3",
+                "dur": "5.32"
+            },
+            "text": "a resource on the Internet, such as a website,\nan email account, a hosting server, and the like."
+        },
+        {
+            "attr": {
+                "start": "39.88",
+                "dur": "5.4"
+            },
+            "text": "Domain names are assigned to Internet resources for the same purpose street addresses are assigned to houses,"
+        },
+        {
+            "attr": {
+                "start": "45.34",
+                "dur": "3.3"
+            },
+            "text": "office buildings, and\nother real estate \u2013 so they can be found."
+        },
+        {
+            "attr": {
+                "start": "48.78",
+                "dur": "5.02"
+            },
+            "text": "Domain names must conform to the rules of,\nand be registered in, the Domain Name System,"
+        },
+        {
+            "attr": {
+                "start": "54.06",
+                "dur": "1.2"
+            },
+            "text": "or DNS."
+        },
+        {
+            "attr": {
+                "start": "55.38",
+                "dur": "4.64"
+            },
+            "text": "Every registered domain name is owned by a\nperson or entity of some kind,"
+        },
+        {
+            "attr": {
+                "start": "60.08",
+                "dur": "2.9"
+            },
+            "text": "such as a company, organization, or government."
+        },
+        {
+            "attr": {
+                "start": "63.18",
+                "dur": "6.18"
+            },
+            "text": "It is possible for registered domain names to exist, but not be associated with any Internet resource."
+        },
+        {
+            "attr": {
+                "start": "69.58",
+                "dur": "2.24"
+            },
+            "text": "This is where domain investing comes in."
+        },
+        {
+            "attr": {
+                "start": "72.02",
+                "dur": "4.66"
+            },
+            "text": "When domain names are not in use, their owners have the option of selling them in what is called"
+        },
+        {
+            "attr": {
+                "start": "76.68",
+                "dur": "1.88"
+            },
+            "text": "the &#39;domain aftermarket.&#39;"
+        },
+        {
+            "attr": {
+                "start": "78.78",
+                "dur": "4"
+            },
+            "text": "Domain investors purchase them with the hope\nthey will gain value over time."
+        },
+        {
+            "attr": {
+                "start": "82.96",
+                "dur": "3.7"
+            },
+            "text": "Some domain investors also search for entirely\nnew domains."
+        },
+        {
+            "attr": {
+                "start": "86.86",
+                "dur": "2.9"
+            },
+            "text": "When they find an available name they think will gain in value,"
+        },
+        {
+            "attr": {
+                "start": "89.94",
+                "dur": "4.26"
+            },
+            "text": "they register it and hold on to it until they feel they can sell if for a profit."
+        },
+        {
+            "attr": {
+                "start": "94.38",
+                "dur": "3.44"
+            },
+            "text": "The prices of aftermarket domain names vary widely."
+        },
+        {
+            "attr": {
+                "start": "98.04",
+                "dur": "4"
+            },
+            "text": "Determining the market value of a domain name is a complex process,"
+        },
+        {
+            "attr": {
+                "start": "102.12",
+                "dur": "3.74"
+            },
+            "text": "similar to determining the market value of a piece of real estate."
+        },
+        {
+            "attr": {
+                "start": "106.02",
+                "dur": "6.46"
+            },
+            "text": "In general, short, memorable, easy-to-spell names that end in .com tend to be the most valuable."
+        },
+        {
+            "attr": {
+                "start": "112.7",
+                "dur": "5.46"
+            },
+            "text": "Before you dive in to domain investing, wade\naround in a few good online resources."
+        },
+        {
+            "attr": {
+                "start": "118.32",
+                "dur": "1.34"
+            },
+            "text": "There\u2019s a lot to know."
+        },
+        {
+            "attr": {
+                "start": "120.08",
+                "dur": "6.68"
+            },
+            "text": "Check out GoDaddy.com/domains, NamePros.com\nand YouTube, just to name a few."
+        },
+        {
+            "attr": {
+                "start": "127.12",
+                "dur": "1.24"
+            },
+            "text": "Good luck!"
+        }
+    ],
+    "vtIp0GP4w1E": [
+        {
+            "attr": {
+                "start": "0.02",
+                "dur": "6.46"
+            },
+            "text": "[QUESTIONER] If that&#39;s the case, how is it possible that one single person, like you or me, is able to predict..."
+        },
+        {
+            "attr": {
+                "start": "6.48",
+                "dur": "5.12"
+            },
+            "text": ".. what is going to happen, when the whole thing is robust in consensus decision-making? Thank you."
+        },
+        {
+            "attr": {
+                "start": "11.6",
+                "dur": "2"
+            },
+            "text": "[ANDREAS] Yeah, that&#39;s a good question."
+        },
+        {
+            "attr": {
+                "start": "14.2",
+                "dur": "8.6"
+            },
+            "text": "The simple answer is that Bitcoin runs a certain set of rules and those rules can&#39;t be changed unless..."
+        },
+        {
+            "attr": {
+                "start": "22.8",
+                "dur": "5.38"
+            },
+            "text": ".. everybody agrees. By &quot;agrees,&quot; that means you run the software that expresses the rules that you want."
+        },
+        {
+            "attr": {
+                "start": "28.54",
+                "dur": "6.02"
+            },
+            "text": "But if you don&#39;t do anything different, Bitcoin does not change. That&#39;s the whole point."
+        },
+        {
+            "attr": {
+                "start": "34.56",
+                "dur": "2.26"
+            },
+            "text": "The consensus rules remain the same."
+        },
+        {
+            "attr": {
+                "start": "36.82",
+                "dur": "7.82"
+            },
+            "text": "So, for example... I&#39;m a U.S. citizen right now. We just had an announcement by the Federal Reserve that..."
+        },
+        {
+            "attr": {
+                "start": "44.64",
+                "dur": "6.1"
+            },
+            "text": ".. they&#39;re going to raise interest rates. This was at the last Friday meeting that they announced. They said..."
+        },
+        {
+            "attr": {
+                "start": "50.74",
+                "dur": "2.02"
+            },
+            "text": "&quot;Maybe once more this year.&quot;"
+        },
+        {
+            "attr": {
+                "start": "53.18",
+                "dur": "6.08"
+            },
+            "text": "So I know what the interest rate will be next week. I don&#39;t know what the interest rate will be next year."
+        },
+        {
+            "attr": {
+                "start": "59.6",
+                "dur": "9.3"
+            },
+            "text": "I know what the &quot;interest rate&quot; will be for bitcoin in the year 2142, down to eight decimal points."
+        },
+        {
+            "attr": {
+                "start": "69.44",
+                "dur": "5.62"
+            },
+            "text": "Why? Because I can read the code. It&#39;s right there. That&#39;s one of the rules that&#39;s not going to change, because..."
+        },
+        {
+            "attr": {
+                "start": "75.06",
+                "dur": "7"
+            },
+            "text": ".. if you change that rule, it&#39;s not Bitcoin anymore. I can guarantee you: Bitcoin will never create 21 million coins."
+        },
+        {
+            "attr": {
+                "start": "82.06",
+                "dur": "7.72"
+            },
+            "text": "That&#39;s the upper limit. We will never reach it. We will get twenty million, nine hundred &amp; ninety-seven thousand..."
+        },
+        {
+            "attr": {
+                "start": "89.78",
+                "dur": "5.1"
+            },
+            "text": ".. and then it will stop. Why? Because that will never change. Because if you try to change that rule..."
+        },
+        {
+            "attr": {
+                "start": "94.98",
+                "dur": "4.3"
+            },
+            "text": ".. I will say &quot;no.&quot; Most of the other people who are interested in Bitcoin will say &quot;no.&quot;"
+        },
+        {
+            "attr": {
+                "start": "99.54",
+                "dur": "6.14"
+            },
+            "text": "If you split off the network, you can call your thing &quot;Buttcoin,&quot; we&#39;ll keep calling our thing &quot;Bitcoin,&quot; and..."
+        },
+        {
+            "attr": {
+                "start": "105.8",
+                "dur": "1.96"
+            },
+            "text": ".. we&#39;ll just keep the old rules."
+        },
+        {
+            "attr": {
+                "start": "108.28",
+                "dur": "6.1"
+            },
+            "text": "That certainty... It gives me a set of rules that are based on mathematics, [where] I can look into the future."
+        },
+        {
+            "attr": {
+                "start": "114.48",
+                "dur": "7.86"
+            },
+            "text": "I know exactly when - down to the block number - the distribution of bitcoins will reduce by half."
+        },
+        {
+            "attr": {
+                "start": "122.34",
+                "dur": "7.82"
+            },
+            "text": "In the year 2038. I can tell you which block number today, because it&#39;s mathematics."
+        },
+        {
+            "attr": {
+                "start": "130.24",
+                "dur": "5.96"
+            },
+            "text": "That&#39;s what gives us control. It&#39;s that this is not based on arbitrary decisions by people, it&#39;s based on mathematics."
+        },
+        {
+            "attr": {
+                "start": "136.2",
+                "dur": "7.36"
+            },
+            "text": "Now, some people don&#39;t like that. Some people want to have the ability to make political choices,"
+        },
+        {
+            "attr": {
+                "start": "143.6",
+                "dur": "5.96"
+            },
+            "text": ".. to elect people who make choices for them, to change their mind, to have &quot;flexibility&quot; in the system."
+        },
+        {
+            "attr": {
+                "start": "149.56",
+                "dur": "4.02"
+            },
+            "text": "For that, Bitcoin isn&#39;t good, because Bitcoin is inflexible."
+        },
+        {
+            "attr": {
+                "start": "153.94",
+                "dur": "8.12"
+            },
+            "text": "If you want 24 million coins, sorry. We&#39;re not going to do that. It&#39;s going to be 20.997 [million], done."
+        },
+        {
+            "attr": {
+                "start": "162.48",
+                "dur": "7.56"
+            },
+            "text": "If you want certainty, if you want predictability, if you want hard mathematical rules, Bitcoin might be an..."
+        },
+        {
+            "attr": {
+                "start": "170.04",
+                "dur": "6.86"
+            },
+            "text": ".. interesting choice for you. If you don&#39;t, you can pick another digital currency or system of organisation."
+        },
+        {
+            "attr": {
+                "start": "177.54",
+                "dur": "3.32"
+            },
+            "text": "That&#39;s what we get. We get a level of certainty."
+        }
+    ],
+    "uWSxzjyMNpU": [
+        {
+            "attr": {
+                "start": "1.3",
+                "dur": "0.25"
+            },
+            "text": " "
+        },
+        {
+            "attr": {
+                "start": "1.38",
+                "dur": "0.25"
+            },
+            "text": " "
+        },
+        {
+            "attr": {
+                "start": "1.439",
+                "dur": "0.25"
+            },
+            "text": " "
+        },
+        {
+            "attr": {
+                "start": "1.5",
+                "dur": "3.55"
+            },
+            "text": "People are talking a lot about\ninequality these days... about the fact that"
+        },
+        {
+            "attr": {
+                "start": "5.05",
+                "dur": "5.27"
+            },
+            "text": "the richest 1% have so much more than everybody\nelse. But most of the focus seems to be"
+        },
+        {
+            "attr": {
+                "start": "10.32",
+                "dur": "4.36"
+            },
+            "text": "on the United States and it strikes me\nthat the same story needs to be told about"
+        },
+        {
+            "attr": {
+                "start": "14.68",
+                "dur": "2.999"
+            },
+            "text": "global inequality, too. So I did some research,"
+        },
+        {
+            "attr": {
+                "start": "17.679",
+                "dur": "4.48"
+            },
+            "text": "and this is what I found from reliable sources\nlike the UN. It turns out, that while the US is"
+        },
+        {
+            "attr": {
+                "start": "22.159",
+                "dur": "1.26"
+            },
+            "text": " "
+        },
+        {
+            "attr": {
+                "start": "23.419",
+                "dur": "4.42"
+            },
+            "text": "totally out of whack, things are actually\nway worse for the planet as a whole."
+        },
+        {
+            "attr": {
+                "start": "27.839",
+                "dur": "4.78"
+            },
+            "text": "Let&#39;s start with this graph a perfectly\neven distribution of wealth among all living"
+        },
+        {
+            "attr": {
+                "start": "32.619",
+                "dur": "2.9"
+            },
+            "text": "people, with everyone divided into five equal\ngroups."
+        },
+        {
+            "attr": {
+                "start": "35.519",
+                "dur": "3.011"
+            },
+            "text": "Now, let&#39;s show how much each group actually has"
+        },
+        {
+            "attr": {
+                "start": "38.53",
+                "dur": "1.32"
+            },
+            "text": " "
+        },
+        {
+            "attr": {
+                "start": "39.85",
+                "dur": "2.97"
+            },
+            "text": "Shocking, right? 80% percent of the world&#39;s"
+        },
+        {
+            "attr": {
+                "start": "42.82",
+                "dur": "5.149"
+            },
+            "text": "people barely have any wealth, it&#39;s\nhard to even see them on the chart. Meanwhile,"
+        },
+        {
+            "attr": {
+                "start": "47.969",
+                "dur": "4.57"
+            },
+            "text": "the richest 2%, they have more wealth than\nhalf of the rest of the world."
+        },
+        {
+            "attr": {
+                "start": "52.539",
+                "dur": "5.331"
+            },
+            "text": "Let&#39;s look at this chart another way. Let&#39;s\ntake the whole world&#39;s population"
+        },
+        {
+            "attr": {
+                "start": "57.87",
+                "dur": "6.42"
+            },
+            "text": "all 7 billion of us and reduce it to\njust a representative 100 individuals. Here"
+        },
+        {
+            "attr": {
+                "start": "64.29",
+                "dur": "4.5"
+            },
+            "text": "they are, poorest people on the left, richest\npeople on the right."
+        },
+        {
+            "attr": {
+                "start": "68.79",
+                "dur": "5.48"
+            },
+            "text": "Now let&#39;s show how the world&#39;s total\nwealth roughly 223 trillion dollars"
+        },
+        {
+            "attr": {
+                "start": "74.27",
+                "dur": "4.96"
+            },
+            "text": "is distributed. The vast majority have practically nothing"
+        },
+        {
+            "attr": {
+                "start": "79.23",
+                "dur": "2.73"
+            },
+            "text": "Nothing with which to educate their"
+        },
+        {
+            "attr": {
+                "start": "81.96",
+                "dur": "5.08"
+            },
+            "text": "children, nothing with which to pay for basic\nmedicines. While the richest 1%..."
+        },
+        {
+            "attr": {
+                "start": "87.04",
+                "dur": "6.62"
+            },
+            "text": "they&#39;ve accumulated 43% of our world&#39;s\nwealth. The bottom 80%, meanwhile - that&#39;s"
+        },
+        {
+            "attr": {
+                "start": "93.66",
+                "dur": "4.26"
+            },
+            "text": "8 out of every 10 people - have just 6% between\nthem."
+        },
+        {
+            "attr": {
+                "start": "97.92",
+                "dur": "1.37"
+            },
+            "text": "But even this"
+        },
+        {
+            "attr": {
+                "start": "99.29",
+                "dur": "5.38"
+            },
+            "text": "doesn&#39;t show how extreme things have\nbecome. The richest 300 people on Earth"
+        },
+        {
+            "attr": {
+                "start": "104.67",
+                "dur": "3.44"
+            },
+            "text": "have the same wealth as the poorest 3\nbillion"
+        },
+        {
+            "attr": {
+                "start": "108.11",
+                "dur": "4.46"
+            },
+            "text": "So the number of people it takes to\nfill a mid-size commercial aircraft have more"
+        },
+        {
+            "attr": {
+                "start": "112.57",
+                "dur": "5.02"
+            },
+            "text": "wealth than the populations of India, China,\nthe US, and Brazil combined"
+        },
+        {
+            "attr": {
+                "start": "117.59",
+                "dur": "1.58"
+            },
+            "text": " "
+        },
+        {
+            "attr": {
+                "start": "119.17",
+                "dur": "4.62"
+            },
+            "text": "We can also see this inequality geographically,\nwith a huge and growing gap between a few"
+        },
+        {
+            "attr": {
+                "start": "123.79",
+                "dur": "3.09"
+            },
+            "text": "rich places versus the majority of the\nworld."
+        },
+        {
+            "attr": {
+                "start": "126.88",
+                "dur": "0.36"
+            },
+            "text": " "
+        },
+        {
+            "attr": {
+                "start": "127.24",
+                "dur": "4.84"
+            },
+            "text": "For most of history, things were much more equal. 200 years ago, rich countries were only"
+        },
+        {
+            "attr": {
+                "start": "132.08",
+                "dur": "5.45"
+            },
+            "text": "3 times richer than poor countries. By the\nend of colonialism in the 1960s, they were"
+        },
+        {
+            "attr": {
+                "start": "137.53",
+                "dur": "5.84"
+            },
+            "text": "35 times richer. Today, they&#39;re about 80 times richer."
+        },
+        {
+            "attr": {
+                "start": "143.37",
+                "dur": "3.93"
+            },
+            "text": "Rich countries try to compensate for this\nby giving aid to poor countries - about"
+        },
+        {
+            "attr": {
+                "start": "147.3",
+                "dur": "4.2"
+            },
+            "text": "130 billion dollars each year. That&#39;s a\nlot of money."
+        },
+        {
+            "attr": {
+                "start": "151.5",
+                "dur": "2.55"
+            },
+            "text": "So then why does the wealth gap keep getting\nbigger?"
+        },
+        {
+            "attr": {
+                "start": "154.05",
+                "dur": "5.11"
+            },
+            "text": "One reason I found is that large corporations\nare taking more than 900 billion dollars"
+        },
+        {
+            "attr": {
+                "start": "159.16",
+                "dur": "2.81"
+            },
+            "text": "out of poor countries each year through a"
+        },
+        {
+            "attr": {
+                "start": "161.97",
+                "dur": "3.65"
+            },
+            "text": "form of tax avoidance called trade mispricing."
+        },
+        {
+            "attr": {
+                "start": "165.62",
+                "dur": "5.07"
+            },
+            "text": "On top of this, each year poor countries are\npaying about 600 billion dollars in debt service"
+        },
+        {
+            "attr": {
+                "start": "170.69",
+                "dur": "4.66"
+            },
+            "text": "to rich countries, on loans that have already\nbeen paid off many times over."
+        },
+        {
+            "attr": {
+                "start": "175.35",
+                "dur": "4.45"
+            },
+            "text": "And then there&#39;s the money that poor countries\nlose from trade rules imposed by rich countries"
+        },
+        {
+            "attr": {
+                "start": "179.8",
+                "dur": "5.2"
+            },
+            "text": "to get access to more resources and cheaper\nlabor. Economists from the University of Massachusetts"
+        },
+        {
+            "attr": {
+                "start": "185",
+                "dur": "5.13"
+            },
+            "text": "calculate that this costs poor countries about\n500 billion dollars a year."
+        },
+        {
+            "attr": {
+                "start": "190.13",
+                "dur": "4.37"
+            },
+            "text": "All together, that&#39;s more than 2 trillion\ndollars that flows from some of the poorest"
+        },
+        {
+            "attr": {
+                "start": "194.5",
+                "dur": "5.7"
+            },
+            "text": "parts of the world to the richest, every year.\nRich governments like to say they&#39;re helping"
+        },
+        {
+            "attr": {
+                "start": "200.2",
+                "dur": "4.34"
+            },
+            "text": "poor countries develop, but who&#39;s developing\nwho here?"
+        },
+        {
+            "attr": {
+                "start": "204.54",
+                "dur": "3.559"
+            },
+            "text": "This makes me think that there&#39;s something\nwrong with the basic rules of the global economy."
+        },
+        {
+            "attr": {
+                "start": "208.099",
+                "dur": "4.421"
+            },
+            "text": "It can&#39;t be right that the wealth of our\nplanet is becoming so concentrated in the"
+        },
+        {
+            "attr": {
+                "start": "212.52",
+                "dur": "5.13"
+            },
+            "text": "hands of such a tiny number of people.\nThe only reasonable response, it seems to me,"
+        },
+        {
+            "attr": {
+                "start": "217.65",
+                "dur": "3.19"
+            },
+            "text": "and our only hope, is to change the rules."
+        }
+    ],
+    "E3eyuPWuOq0": [],
+    "4t8ReAEFils": [
+        {
+            "attr": {
+                "start": "4.1",
+                "dur": "6.08"
+            },
+            "text": "If legendary investor Marc Faber is right,\nA Perfect Storm Is Brewing For Gold and Silver\u2026"
+        },
+        {
+            "attr": {
+                "start": "10.18",
+                "dur": "5.539"
+            },
+            "text": "Economist Marc Faber, who is known in many\ncircles as Doctor Doom for his oft gloomy"
+        },
+        {
+            "attr": {
+                "start": "15.719",
+                "dur": "6.341"
+            },
+            "text": "forecasts, says that stock markets are overvalued,\nbut stops short of saying that a crash is"
+        },
+        {
+            "attr": {
+                "start": "22.06",
+                "dur": "1"
+            },
+            "text": "imminent."
+        },
+        {
+            "attr": {
+                "start": "23.06",
+                "dur": "5.17"
+            },
+            "text": "Though valuations are high and sentiment is\ndangerously optimistic, Faber argues in a"
+        },
+        {
+            "attr": {
+                "start": "28.23",
+                "dur": "5.29"
+            },
+            "text": "recent interview with Fox Business that there\nare huge money flows still making their way"
+        },
+        {
+            "attr": {
+                "start": "33.52",
+                "dur": "2.18"
+            },
+            "text": "into U.S. equities."
+        },
+        {
+            "attr": {
+                "start": "35.7",
+                "dur": "4.679"
+            },
+            "text": "And over the next three to six months Faber\nsays much of that liquidity from foreign and"
+        },
+        {
+            "attr": {
+                "start": "40.379",
+                "dur": "5.57"
+            },
+            "text": "domestic investors may start moving into precious\nmetals and precious metals stocks:"
+        },
+        {
+            "attr": {
+                "start": "45.949",
+                "dur": "5.09"
+            },
+            "text": "[There won\u2019t be a sell off] in the near\nfuture\u2026 but if you look at the valuation"
+        },
+        {
+            "attr": {
+                "start": "51.039",
+                "dur": "1.68"
+            },
+            "text": "of stock they\u2019re high."
+        },
+        {
+            "attr": {
+                "start": "52.719",
+                "dur": "3.621"
+            },
+            "text": "If you look at the valuation of the US dollar\nit is high\u2026"
+        },
+        {
+            "attr": {
+                "start": "56.34",
+                "dur": "4.85"
+            },
+            "text": "If you look at the money flows in the last\nfew weeks a lot of money has flown into US"
+        },
+        {
+            "attr": {
+                "start": "61.19",
+                "dur": "5.75"
+            },
+            "text": "equities, both from domestic investors and\ninternational investors\u2026 as a contrarian"
+        },
+        {
+            "attr": {
+                "start": "66.94",
+                "dur": "2.66"
+            },
+            "text": "this is not a particular good sign."
+        },
+        {
+            "attr": {
+                "start": "69.6",
+                "dur": "5.35"
+            },
+            "text": "However, there is a lot of liquidity in the\nworld\u2026 the liquidity will move into precious"
+        },
+        {
+            "attr": {
+                "start": "74.95",
+                "dur": "6.07"
+            },
+            "text": "metals and precious metals stocks\u2026 so I\nwould be long gold shares, silver shares,"
+        },
+        {
+            "attr": {
+                "start": "81.02",
+                "dur": "2.86"
+            },
+            "text": "platinum and the underlying physical\u2026"
+        },
+        {
+            "attr": {
+                "start": "83.88",
+                "dur": "5.739"
+            },
+            "text": "I also think that sentiment is much too optimistic\nabout stocks and far too pessimistic about"
+        },
+        {
+            "attr": {
+                "start": "89.619",
+                "dur": "1.221"
+            },
+            "text": "bonds\u2026"
+        },
+        {
+            "attr": {
+                "start": "90.84",
+                "dur": "5.629"
+            },
+            "text": "Faber may be on to something, as demand for\ngold via ETF\u2019s is surging at levels not"
+        },
+        {
+            "attr": {
+                "start": "96.469",
+                "dur": "6.851"
+            },
+            "text": "seen since the 2011 run up in precious metals\nprices, suggesting that for those on the sidelines"
+        },
+        {
+            "attr": {
+                "start": "103.32",
+                "dur": "4.38"
+            },
+            "text": "now may be a good time to buy gold and related\nassets."
+        },
+        {
+            "attr": {
+                "start": "107.7",
+                "dur": "5.349"
+            },
+            "text": "As the elite meet in Davos to discuss banning\ncash, investors around the world are flocking"
+        },
+        {
+            "attr": {
+                "start": "113.049",
+                "dur": "1.591"
+            },
+            "text": "to safe havens."
+        },
+        {
+            "attr": {
+                "start": "114.64",
+                "dur": "4.81"
+            },
+            "text": "Nowhere has this been more visible than in\nChina, where so much money moved into BitCoin"
+        },
+        {
+            "attr": {
+                "start": "119.45",
+                "dur": "5.26"
+            },
+            "text": "that it broke through $1000 stopping just\nshy of all-time highs."
+        },
+        {
+            "attr": {
+                "start": "124.71",
+                "dur": "4.909"
+            },
+            "text": "The sudden and precipitous rise of the digital\ncurrency is an indicator of what may happen"
+        },
+        {
+            "attr": {
+                "start": "129.619",
+                "dur": "5.821"
+            },
+            "text": "with precious metals should they become the\nnext go-to safe havens for panicked investors."
+        },
+        {
+            "attr": {
+                "start": "135.44",
+                "dur": "4.82"
+            },
+            "text": "With the strength of the US dollar today and\nPresident Trump recently warning that a strong"
+        },
+        {
+            "attr": {
+                "start": "140.26",
+                "dur": "4.68"
+            },
+            "text": "dollar is not good for trade, it is quite\npossible that a policy shift with the new"
+        },
+        {
+            "attr": {
+                "start": "144.94",
+                "dur": "4.84"
+            },
+            "text": "administration could weaken the dollar, adding\nfurther upward pressure on the gold price"
+        },
+        {
+            "attr": {
+                "start": "149.78",
+                "dur": "1.81"
+            },
+            "text": "going forward."
+        },
+        {
+            "attr": {
+                "start": "151.59",
+                "dur": "3.48"
+            },
+            "text": "If Faber is right, there is a perfect storm\nbrewing for gold and silver."
+        }
+    ],
+    "jOHQx3jxf4E": [
+        {
+            "attr": {
+                "start": "4.089",
+                "dur": "5.921"
+            },
+            "text": "The Public Is \u201cAll In\u201d Again\nJune 30 (King World News) \u2013 From Jason Goepfert"
+        },
+        {
+            "attr": {
+                "start": "10.01",
+                "dur": "3.949"
+            },
+            "text": "at SentimenTrader: Rydex traders are all in\nagain."
+        },
+        {
+            "attr": {
+                "start": "13.959",
+                "dur": "6.451"
+            },
+            "text": "The traders who use the Rydex family of mutual\nfunds are holding $14 in bullish index funds"
+        },
+        {
+            "attr": {
+                "start": "20.41",
+                "dur": "5.15"
+            },
+            "text": "for every $1 they have in the inverse funds,\na near-record level of confidence."
+        },
+        {
+            "attr": {
+                "start": "25.56",
+                "dur": "6.42"
+            },
+            "text": "They\u2019re also holding more than $10 in leveraged\nbullish funds for every $1 in leveraged index"
+        },
+        {
+            "attr": {
+                "start": "31.98",
+                "dur": "4.59"
+            },
+            "text": "funds, a highly optimistic positioning that\nled to declines."
+        },
+        {
+            "attr": {
+                "start": "36.57",
+                "dur": "5.009"
+            },
+            "text": "They have the lowest amount in the money market\nsince 2000, so there isn\u2019t much of a cushion"
+        },
+        {
+            "attr": {
+                "start": "41.579",
+                "dur": "4.73"
+            },
+            "text": "against a fall\u2026\n\u2026 as of Wednesday, there was nearly $14"
+        },
+        {
+            "attr": {
+                "start": "46.309",
+                "dur": "4.901"
+            },
+            "text": "invested in the bullish index funds for every\n$1 invested in the inverse funds."
+        },
+        {
+            "attr": {
+                "start": "51.21",
+                "dur": "7.26"
+            },
+            "text": "Over the past 20 years, that ratio has been\nexceeded only once before, on March 2, 2015."
+        },
+        {
+            "attr": {
+                "start": "58.47",
+                "dur": "7.23"
+            },
+            "text": "In the year 2000, the ratio barely exceeded\n12 several times from March through September."
+        },
+        {
+            "attr": {
+                "start": "65.7",
+                "dur": "5.199"
+            },
+            "text": "Having been burned so badly by the ensuing\ndecline, the traders never approached a similar"
+        },
+        {
+            "attr": {
+                "start": "70.899",
+                "dur": "3.551"
+            },
+            "text": "extreme until 2014-15."
+        },
+        {
+            "attr": {
+                "start": "74.45",
+                "dur": "4.949"
+            },
+            "text": "King World News note: The bottom line is that\nthere will be a lot of pain for investors"
+        },
+        {
+            "attr": {
+                "start": "79.399",
+                "dur": "6.35"
+            },
+            "text": "as a major decline in the stock market unfolds,\nand it will feed on itself as it plunges."
+        },
+        {
+            "attr": {
+                "start": "85.749",
+                "dur": "4.9"
+            },
+            "text": "This piece is just one example of why Jason\nGoepfert is the best in the world at what"
+        },
+        {
+            "attr": {
+                "start": "90.649",
+                "dur": "1.11"
+            },
+            "text": "he does."
+        },
+        {
+            "attr": {
+                "start": "91.759",
+                "dur": "2.332"
+            },
+            "text": "The chart and commentary above are from SentimenTrader."
+        },
+        {
+            "attr": {
+                "start": "94.091",
+                "dur": "1"
+            },
+            "text": "\u2003\nFed Trying to Cripple Trump Economy-Danielle"
+        },
+        {
+            "attr": {
+                "start": "95.091",
+                "dur": "1"
+            },
+            "text": "DiMartino Booth\nFinancial expert and former top Federal Reserve"
+        },
+        {
+            "attr": {
+                "start": "96.091",
+                "dur": "1"
+            },
+            "text": "insider Danielle DiMartino Booth says the\nlatest Fed rate hike is nothing less than"
+        },
+        {
+            "attr": {
+                "start": "97.091",
+                "dur": "1"
+            },
+            "text": "an attempt to make life worse for President\nTrump."
+        },
+        {
+            "attr": {
+                "start": "98.091",
+                "dur": "1"
+            },
+            "text": "DiMartino Booth explains, \u201cThey are trying\nto do the opposite of what they did a year"
+        },
+        {
+            "attr": {
+                "start": "99.091",
+                "dur": "1"
+            },
+            "text": "ago because the people who occupy the White\nHouse have changed."
+        },
+        {
+            "attr": {
+                "start": "100.091",
+                "dur": "1"
+            },
+            "text": "That\u2019s the only feasible answer I can come\nup with to explain the Fed tightening into"
+        },
+        {
+            "attr": {
+                "start": "101.091",
+                "dur": "1"
+            },
+            "text": "a weakening economy."
+        },
+        {
+            "attr": {
+                "start": "102.091",
+                "dur": "1"
+            },
+            "text": "Their own metrics don\u2019t lie."
+        },
+        {
+            "attr": {
+                "start": "103.091",
+                "dur": "1"
+            },
+            "text": "Nonfarm payroll growth has slowed appreciably\nover the last 12 months, and their favorite"
+        },
+        {
+            "attr": {
+                "start": "104.091",
+                "dur": "1"
+            },
+            "text": "inflation metric is back below 2%."
+        },
+        {
+            "attr": {
+                "start": "105.091",
+                "dur": "1"
+            },
+            "text": "These are the rules they have made up, not\nme."
+        },
+        {
+            "attr": {
+                "start": "106.091",
+                "dur": "1"
+            },
+            "text": "They (the Fed) are making policies against\ntheir own rules, and there has to be a reason"
+        },
+        {
+            "attr": {
+                "start": "107.091",
+                "dur": "1"
+            },
+            "text": "for it.\u201d"
+        },
+        {
+            "attr": {
+                "start": "108.091",
+                "dur": "1"
+            },
+            "text": "DiMartino Booth wrote a popular book called\n\u201cFed Up\u201d that reveals the Fed\u2019s manipulation"
+        },
+        {
+            "attr": {
+                "start": "109.091",
+                "dur": "1"
+            },
+            "text": "of the financial markets and says flat out,\n\u201cThe Federal Reserve is bad for America.\u201d"
+        },
+        {
+            "attr": {
+                "start": "110.091",
+                "dur": "1"
+            },
+            "text": "DiMartino Booth says massive manipulation\nis the only way you can explain rising federal"
+        },
+        {
+            "attr": {
+                "start": "111.091",
+                "dur": "1"
+            },
+            "text": "debt and stagnant or falling interest rates\non the 10-year Treasury bond."
+        },
+        {
+            "attr": {
+                "start": "112.091",
+                "dur": "1"
+            },
+            "text": "DiMartino Booth contends, \u201cThe only way\nyou can fabricate the surreal balance between"
+        },
+        {
+            "attr": {
+                "start": "113.091",
+                "dur": "1"
+            },
+            "text": "growing debt and falling interest rates is\nto manipulate that."
+        },
+        {
+            "attr": {
+                "start": "114.091",
+                "dur": "1"
+            },
+            "text": ". . . These are central bankers gone wild."
+        },
+        {
+            "attr": {
+                "start": "115.091",
+                "dur": "1"
+            },
+            "text": ". . . In 2008 and 2009, the credit markets\nwere closer to $200 trillion in size."
+        },
+        {
+            "attr": {
+                "start": "116.091",
+                "dur": "1"
+            },
+            "text": "Today the credit markets are closer to $300\ntrillion in size, and we still can\u2019t say"
+        },
+        {
+            "attr": {
+                "start": "117.091",
+                "dur": "1"
+            },
+            "text": "what and where the next systemic risk lies.\u201d"
+        },
+        {
+            "attr": {
+                "start": "118.091",
+                "dur": "1"
+            },
+            "text": "On gold, DiMartino says, \u201cI think gold is\nin the very late stage of a correction phase."
+        },
+        {
+            "attr": {
+                "start": "119.091",
+                "dur": "1"
+            },
+            "text": "Once we get a sniff of true market reaction\nto any of these geopolitical events, I think"
+        },
+        {
+            "attr": {
+                "start": "120.091",
+                "dur": "1"
+            },
+            "text": "you could see gold take off like a boomerang\nor a hockey stick."
+        },
+        {
+            "attr": {
+                "start": "121.091",
+                "dur": "1"
+            },
+            "text": ". . . If there is any slowing in the global\neconomy, then the safe haven will not necessarily"
+        },
+        {
+            "attr": {
+                "start": "122.091",
+                "dur": "1"
+            },
+            "text": "be U.S. Treasuries."
+        },
+        {
+            "attr": {
+                "start": "123.091",
+                "dur": "1"
+            },
+            "text": "The ultimate safe haven is gold.\u201d"
+        },
+        {
+            "attr": {
+                "start": "124.091",
+                "dur": "1"
+            },
+            "text": "DiMartino Booth says it\u2019s unlikely the Fed\ncan fix the economy the next time it gets"
+        },
+        {
+            "attr": {
+                "start": "125.091",
+                "dur": "1"
+            },
+            "text": "into trouble."
+        },
+        {
+            "attr": {
+                "start": "126.091",
+                "dur": "1"
+            },
+            "text": "DiMartino Booth says, \u201cIf you tack on slowing\nauto sales . . . we\u2019re talking about a third"
+        },
+        {
+            "attr": {
+                "start": "127.091",
+                "dur": "1"
+            },
+            "text": "of manufacturing jobs in this country . . . manufacturing\nis still big enough at the margin to lead"
+        },
+        {
+            "attr": {
+                "start": "128.091",
+                "dur": "1"
+            },
+            "text": "the economy down."
+        },
+        {
+            "attr": {
+                "start": "129.091",
+                "dur": "1"
+            },
+            "text": ". . . When you aggregate the bloodletting\nin brick and mortar retail, what\u2019s coming"
+        },
+        {
+            "attr": {
+                "start": "130.091",
+                "dur": "1"
+            },
+            "text": "up in restaurants, what auto dealerships are\nlooking to do with the land under their dealerships"
+        },
+        {
+            "attr": {
+                "start": "131.091",
+                "dur": "1"
+            },
+            "text": ". . . you add all this up together and there\nis a perfect storm in this country for commercial"
+        },
+        {
+            "attr": {
+                "start": "132.091",
+                "dur": "1"
+            },
+            "text": "real estate, that is highly overvalued, and\nthrow in a black swan or two geopolitically"
+        },
+        {
+            "attr": {
+                "start": "133.091",
+                "dur": "0.014"
+            },
+            "text": "and you could have a confluence of factors\nthat the Fed could not fight.\u201d"
+        }
+    ],
+    "6WnfylBZmHQ": [
+        {
+            "attr": {
+                "start": "0.06",
+                "dur": "1.26"
+            },
+            "text": "I&#39;m an artist."
+        },
+        {
+            "attr": {
+                "start": "1.32",
+                "dur": "3.28"
+            },
+            "text": "I make pieces mostly from Lego bricks."
+        },
+        {
+            "attr": {
+                "start": "8.4",
+                "dur": "1.92"
+            },
+            "text": "Bitcoin is an intangible currency,"
+        },
+        {
+            "attr": {
+                "start": "10.32",
+                "dur": "1.02"
+            },
+            "text": "but we found an artist"
+        },
+        {
+            "attr": {
+                "start": "11.34",
+                "dur": "0.82"
+            },
+            "text": "who&#39;s using it to make"
+        },
+        {
+            "attr": {
+                "start": "12.16",
+                "dur": "1.56"
+            },
+            "text": "physical works of art."
+        },
+        {
+            "attr": {
+                "start": "13.72",
+                "dur": "1.14"
+            },
+            "text": "We met up with Andy Bauch"
+        },
+        {
+            "attr": {
+                "start": "14.86",
+                "dur": "1.72"
+            },
+            "text": "at his studio in LA."
+        },
+        {
+            "attr": {
+                "start": "16.58",
+                "dur": "1.78"
+            },
+            "text": "I make art that tries to"
+        },
+        {
+            "attr": {
+                "start": "18.36",
+                "dur": "1.3"
+            },
+            "text": "sort of shine a spotlight"
+        },
+        {
+            "attr": {
+                "start": "19.66",
+                "dur": "2.54"
+            },
+            "text": "on the connections between"
+        },
+        {
+            "attr": {
+                "start": "22.2",
+                "dur": "1.86"
+            },
+            "text": "humans and technology"
+        },
+        {
+            "attr": {
+                "start": "24.06",
+                "dur": "1.06"
+            },
+            "text": "and Lego bricks are a"
+        },
+        {
+            "attr": {
+                "start": "25.12",
+                "dur": "1.54"
+            },
+            "text": "really great medium for that."
+        },
+        {
+            "attr": {
+                "start": "26.66",
+                "dur": "1"
+            },
+            "text": "They&#39;re sort of these little"
+        },
+        {
+            "attr": {
+                "start": "27.66",
+                "dur": "2.26"
+            },
+            "text": "digitized pixels that you can"
+        },
+        {
+            "attr": {
+                "start": "29.92",
+                "dur": "2.42"
+            },
+            "text": "make real-world mosaics out of."
+        },
+        {
+            "attr": {
+                "start": "32.34",
+                "dur": "2.56"
+            },
+            "text": "I&#39;ll take either a pre-existing image"
+        },
+        {
+            "attr": {
+                "start": "34.9",
+                "dur": "2.96"
+            },
+            "text": "or something that I&#39;ve generated"
+        },
+        {
+            "attr": {
+                "start": "37.86",
+                "dur": "0.98"
+            },
+            "text": "using an algorithm,"
+        },
+        {
+            "attr": {
+                "start": "38.84",
+                "dur": "1.46"
+            },
+            "text": "or something that I&#39;ve designed."
+        },
+        {
+            "attr": {
+                "start": "40.3",
+                "dur": "3.22"
+            },
+            "text": "I&#39;ll imbed data in it a lot of the time."
+        },
+        {
+            "attr": {
+                "start": "43.52",
+                "dur": "1.2"
+            },
+            "text": "And then I actually"
+        },
+        {
+            "attr": {
+                "start": "44.72",
+                "dur": "1.84"
+            },
+            "text": "create the work after that."
+        },
+        {
+            "attr": {
+                "start": "46.56",
+                "dur": "2.06"
+            },
+            "text": "So, what exactly is bitcoin?"
+        },
+        {
+            "attr": {
+                "start": "48.62",
+                "dur": "1.86"
+            },
+            "text": "Bitcoin is a virtual currency"
+        },
+        {
+            "attr": {
+                "start": "50.48",
+                "dur": "2.9"
+            },
+            "text": "that is maintained and tracked"
+        },
+        {
+            "attr": {
+                "start": "53.38",
+                "dur": "2.74"
+            },
+            "text": "via a decentralized system."
+        },
+        {
+            "attr": {
+                "start": "56.12",
+                "dur": "1.84"
+            },
+            "text": "In the case of these pieces,"
+        },
+        {
+            "attr": {
+                "start": "57.96",
+                "dur": "1.46"
+            },
+            "text": "this software actually"
+        },
+        {
+            "attr": {
+                "start": "59.42",
+                "dur": "1.52"
+            },
+            "text": "fully generates a pattern"
+        },
+        {
+            "attr": {
+                "start": "60.94",
+                "dur": "1.52"
+            },
+            "text": "from these secret keys"
+        },
+        {
+            "attr": {
+                "start": "62.46",
+                "dur": "1.06"
+            },
+            "text": "to the bitcoins."
+        },
+        {
+            "attr": {
+                "start": "63.52",
+                "dur": "2.02"
+            },
+            "text": "I want to show people, visually,"
+        },
+        {
+            "attr": {
+                "start": "65.54",
+                "dur": "2.7"
+            },
+            "text": "what something invisible looks like."
+        },
+        {
+            "attr": {
+                "start": "68.24",
+                "dur": "1.34"
+            },
+            "text": "The pieces I&#39;ve made"
+        },
+        {
+            "attr": {
+                "start": "69.58",
+                "dur": "2.34"
+            },
+            "text": "take a bitcoin secret key"
+        },
+        {
+            "attr": {
+                "start": "71.92",
+                "dur": "2.26"
+            },
+            "text": "and they expose it for"
+        },
+        {
+            "attr": {
+                "start": "74.18",
+                "dur": "1.38"
+            },
+            "text": "all the world to see."
+        },
+        {
+            "attr": {
+                "start": "75.56",
+                "dur": "1.42"
+            },
+            "text": "The money is actually hidden in"
+        },
+        {
+            "attr": {
+                "start": "76.98",
+                "dur": "1.78"
+            },
+            "text": "the pattern created by the Lego."
+        },
+        {
+            "attr": {
+                "start": "78.76",
+                "dur": "1.6"
+            },
+            "text": "There&#39;s a possibility that the bitcoin"
+        },
+        {
+            "attr": {
+                "start": "80.36",
+                "dur": "1.2"
+            },
+            "text": "imbedded in the works of art"
+        },
+        {
+            "attr": {
+                "start": "81.56",
+                "dur": "1.46"
+            },
+            "text": "could actually be worth more"
+        },
+        {
+            "attr": {
+                "start": "83.02",
+                "dur": "1.7"
+            },
+            "text": "than the price I sell the art for."
+        },
+        {
+            "attr": {
+                "start": "84.72",
+                "dur": "2.26"
+            },
+            "text": "When I initially bought the bitcoins,"
+        },
+        {
+            "attr": {
+                "start": "86.98",
+                "dur": "1.1"
+            },
+            "text": "they were worth anywhere"
+        },
+        {
+            "attr": {
+                "start": "88.08",
+                "dur": "2.4"
+            },
+            "text": "between $20 and $90."
+        },
+        {
+            "attr": {
+                "start": "90.48",
+                "dur": "1.96"
+            },
+            "text": "Now, the bitcoins are worth"
+        },
+        {
+            "attr": {
+                "start": "92.44",
+                "dur": "2.88"
+            },
+            "text": "between $300 and $1,500."
+        },
+        {
+            "attr": {
+                "start": "95.32",
+                "dur": "1.22"
+            },
+            "text": "Someone that&#39;s clever enough"
+        },
+        {
+            "attr": {
+                "start": "96.54",
+                "dur": "2.16"
+            },
+            "text": "could reverse engineer the works"
+        },
+        {
+            "attr": {
+                "start": "98.7",
+                "dur": "1.38"
+            },
+            "text": "and actually take the value"
+        },
+        {
+            "attr": {
+                "start": "100.08",
+                "dur": "1.54"
+            },
+            "text": "out of the bitcoin wallet."
+        },
+        {
+            "attr": {
+                "start": "101.62",
+                "dur": "1.32"
+            },
+            "text": "The pieces that I&#39;m making are"
+        },
+        {
+            "attr": {
+                "start": "102.94",
+                "dur": "1.84"
+            },
+            "text": "breadcrumbs in our trail of"
+        },
+        {
+            "attr": {
+                "start": "104.78",
+                "dur": "1.98"
+            },
+            "text": "approaching the singularity."
+        },
+        {
+            "attr": {
+                "start": "106.76",
+                "dur": "3.36"
+            },
+            "text": "The singularity is this concept that"
+        },
+        {
+            "attr": {
+                "start": "110.12",
+                "dur": "2.7"
+            },
+            "text": "artificial intelligence may be created"
+        },
+        {
+            "attr": {
+                "start": "112.82",
+                "dur": "2.26"
+            },
+            "text": "that is more powerful"
+        },
+        {
+            "attr": {
+                "start": "115.08",
+                "dur": "2.08"
+            },
+            "text": "than the human mind."
+        },
+        {
+            "attr": {
+                "start": "117.16",
+                "dur": "1.36"
+            },
+            "text": "I don&#39;t think there&#39;s anything really"
+        },
+        {
+            "attr": {
+                "start": "118.52",
+                "dur": "2.6"
+            },
+            "text": "about art that artificial intelligence"
+        },
+        {
+            "attr": {
+                "start": "121.12",
+                "dur": "1.16"
+            },
+            "text": "can&#39;t eventually do"
+        },
+        {
+            "attr": {
+                "start": "122.28",
+                "dur": "1.66"
+            },
+            "text": "as well as humans can."
+        },
+        {
+            "attr": {
+                "start": "123.94",
+                "dur": "1.24"
+            },
+            "text": "There&#39;s actually a system"
+        },
+        {
+            "attr": {
+                "start": "125.18",
+                "dur": "1.48"
+            },
+            "text": "that I&#39;m working on which may"
+        },
+        {
+            "attr": {
+                "start": "126.66",
+                "dur": "2.24"
+            },
+            "text": "replace some aspects of my job,"
+        },
+        {
+            "attr": {
+                "start": "128.9",
+                "dur": "2"
+            },
+            "text": "in more the physical sense."
+        },
+        {
+            "attr": {
+                "start": "130.9",
+                "dur": "1.86"
+            },
+            "text": "There are a lot of interesting"
+        },
+        {
+            "attr": {
+                "start": "132.76",
+                "dur": "2.52"
+            },
+            "text": "artificial intelligence advancements"
+        },
+        {
+            "attr": {
+                "start": "135.28",
+                "dur": "1.32"
+            },
+            "text": "that people should be aware of"
+        },
+        {
+            "attr": {
+                "start": "136.6",
+                "dur": "2.6"
+            },
+            "text": "and maybe freaked out by."
+        }
+    ],
+    "_SAoBWH4IV8": []
 }

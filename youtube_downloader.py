@@ -2,6 +2,8 @@ import json
 import os
 import shutil
 
+import math
+
 
 class YouTubeDownloader():
     # pip install pytube
@@ -45,7 +47,7 @@ class YouTubeDownloader():
         return search_result
 
     def extractClipDurations(self, search_result_filename='search-result.json',
-                             search_query='Connect your Bank Account and Buy Bitcoins'):
+                             search_query='Connect your Bank Account and Buy Bitcoins', max_clip_length=10):
         import time
         with open(search_result_filename) as result_file:
             result = json.load(result_file)
@@ -61,7 +63,7 @@ class YouTubeDownloader():
                             'text'] and query_keyword in subscript['text']):
                             text = subscript['text']
                             duration = float(subscript['attr']['dur'])
-                            if duration > 20:
+                            if duration > max_clip_length:
                                 continue
                             start = float(subscript['attr']['start'])
                             start_time = time.strftime("%H:%M:%S", time.gmtime(start))
@@ -90,6 +92,7 @@ class YouTubeDownloader():
         def on_progress(stream, chunk, file_handle, bytes_remaining):
             print("Left: %s KB" % (bytes_remaining / 1000.0,))
 
+        print('http://youtube.com/watch?v=%s' % video_id)
         yt = YouTube('http://youtube.com/watch?v=%s' % video_id)
         yt.register_on_progress_callback(progress_change_callback if progress_change_callback else on_progress)
         yt.register_on_complete_callback(complete_callback if complete_callback else on_complete)
@@ -98,7 +101,7 @@ class YouTubeDownloader():
     def split_video(self, file_path='vt-zXEsJ61U/vt-zXEsJ61U-encoded.mp4',
                     out_dir="vt-zXEsJ61U/clips",
                     video_id="vt-zXEsJ61U",
-                    extracted_subscripts='extracted-subscripts.json'):
+                    extracted_subscripts='extracted-subscripts.json', split_max=None, min_distance=15):
         file_path = os.path.abspath(os.path.join(self.out_dir, file_path))
         out_dir = os.path.abspath(os.path.join(self.out_dir, out_dir))
         import subprocess
@@ -114,13 +117,27 @@ class YouTubeDownloader():
             #     os.mkdir(out_dir)
             curr_filename, file_extension = os.path.splitext(file_path)
             i = 0
+            used_subs = []
             for subs in subscript:
                 out_file = os.path.join(out_dir, "%s-%s%s%s" % (
                     video_id, str(i), subs['start_time'] + "|" + subs['end_time'], file_extension))
-                subprocess.call(
-                    ["/usr/bin/ffmpeg", "-y", "-i", str(file_path), '-ss', subs['start_time'], '-t', subs['end_time'],
-                     '-async', '1', str(out_file)])
+                Continue = False
+                for s in used_subs:
+                    if math.fabs(((s['start'] + s['duration']) - subs['start'])) < min_distance or math.fabs(
+                            (((subs['start'] + subs['duration']) - s['start']))) < min_distance:
+                        Continue = True
+                        break
+                if Continue:
+                    continue
+                used_subs.append(subs)
+                command = ["/usr/bin/ffmpeg", "-y", "-i", str(file_path), '-ss', subs['start_time'], '-to',
+                           subs['end_time'],
+                           '-async', '1', str(out_file)]
+                print(" ".join(command))
+                subprocess.call(command)
                 i = i + 1
+                if not split_max and i < split_max:
+                    break
         return out_dir
 
     def encode_rescale_file(self, file_path='vt-zXEsJ61U/vt-zXEsJ61U.mp4',

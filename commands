@@ -20,7 +20,7 @@ Overlap with audio
 
 
 
-ffmpeg -i movie.mp4 -ss 00:00:03 -t 00:00:08 -async 1 cut.mp4
+ffmpeg -i movie.mp4 -ss 00:00:03 -to 00:00:08 -async 1 cut.mp4
 
 
 
@@ -47,3 +47,7 @@ ffmpeg -safe 0 -i 00.mp4 -c:v libx264 -crf 18 -preset medium -c:a copy output-00
 
 
 ffmpeg -f concat -safe 0 -i list.txt -c:v libx264 -crf 18 -preset medium -c:a fast -c:a copy output-second.mp4
+
+
+
+/usr/bin/ffmpeg -y -i /home/frt/codebase/data-analysis/downloads/0zcn5qVIflA/0zcn5qVIflA-encoded.mp4 -ss 00:01:25 -t 00:01:31 -async 1 /home/frt/codebase/data-analysis/downloads/clips/0zcn5qVIflA-000:01:25|00:01:31.mp4
